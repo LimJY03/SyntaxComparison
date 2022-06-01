@@ -20,7 +20,7 @@ However, `python` does not support *constants* usage, but we conventionally name
 > ### **Useful Links:**
 > 
 > * Learn More: [w3schools.com/python](https://www.w3schools.com/python/python_variables.asp)
-> * Code Example: [variables_and_datatypes.py]()
+> * Code Example: [variables_and_datatypes.py](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.py)
 
 ---
 
@@ -42,7 +42,7 @@ Notice that in `JavaScript`, the *boolean* value is `true` and `false` with all 
 > ### **Useful Links:**
 > 
 > * Learn More: [w3schools.com/js](https://www.w3schools.com/js/js_variables.asp)
-> * Code Example: [variables_and_datatypes.js]()
+> * Code Example: [variables_and_datatypes.js](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.js)
 
 ---
 
@@ -65,6 +65,6 @@ Similar to `JavaScript`, the *boolean* value is in small caps. Notice that there
 > ### **Useful Links:**
 > 
 > * Learn More: [w3schools.com/java](https://www.w3schools.com/java/java_variables.asp)
-> * Code Example: [variables_and_datatypes.java]()
+> * Code Example: [variables_and_datatypes.java](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.java)
 
 ---
