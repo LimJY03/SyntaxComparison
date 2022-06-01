@@ -20,7 +20,7 @@ However, `python` does not support *constants* usage, but we conventionally name
 > ### **Useful Links:**
 > 
 > * Learn More: [w3schools.com/python](https://www.w3schools.com/python/python_variables.asp)
-> * <p>Code Example: <a href="https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.py" target="_blank" rel="noopener noreferrer">variables_and_datatypes.py</a></p>
+> * Code Example: <a href="https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.py" target="_blank" rel="noopener noreferrer">variables_and_datatypes.py</a>
 
 ---
 
