@@ -117,6 +117,8 @@ sum = num1 + num2
 print(sum)  # 7
 ```
 
+Learn more about syntax for `python` at [w3schools.com/py](https://www.w3schools.com/python/python_syntax.asp).
+
 ### **JavaScript**
 
 In `JavaScript`, the statement syntax is almost the same as `python`. Adding a semicolon `;` to the end of a statement is optional.
@@ -130,6 +132,8 @@ var sum = num1 + num2;
 console.log(sum);   // 7
 ```
 
+Learn more about syntax for `JavaScript` at [w3schools.com/js](https://www.w3schools.com/js/js_syntax.asp).
+
 ### **Java**
 
 In `java`, the statement syntax has a rule: all statements must end with a semicolon `;`.
@@ -142,5 +146,7 @@ int sum = num1 + num2;
 
 System.out.println(sum);    // 7
 ```
+
+Learn more about syntax for `java` at [w3schools.com/java](https://www.w3schools.com/java/java_syntax.asp).
 
 ---
