@@ -97,7 +97,7 @@ public void my_function(int num){
     System.out.println(num);
 }
 ```
-The code above represents a non-static function, in order to access to a non static function in Java, a object respective to its class has to be created.
+The code above represents a non-static function, in order to access to a non-static function in Java, a object respective to its class has to be created.
 
 ## **03. Statements**
 
