@@ -139,7 +139,7 @@ num2 = 7
 
 sum = num1 + num2
 
-print(sum)  # 7
+print(sum)  # 12
 ```
 
 Learn more about syntax for `python` at [w3schools.com/py](https://www.w3schools.com/python/python_syntax.asp).
@@ -154,7 +154,7 @@ let num2 = 7
 
 var sum = num1 + num2;
 
-console.log(sum);   // 7
+console.log(sum);   // 12
 ```
 
 Learn more about syntax for `JavaScript` at [w3schools.com/js](https://www.w3schools.com/js/js_syntax.asp).
@@ -169,7 +169,7 @@ int num2 = 7;
 
 int sum = num1 + num2;
 
-System.out.println(sum);    // 7
+System.out.println(sum);    // 12
 ```
 
 Learn more about syntax for `java` at [w3schools.com/java](https://www.w3schools.com/java/java_syntax.asp).
@@ -184,7 +184,8 @@ int num2 = 7;
 
 int sum = num1 + num2;
 
-std::cout << sum;    // 7
+std::cout << sum;    // 12
 ```
 
+Learn more about syntax for `C++` at [w3schools.com/cpp](https://www.w3schools.com/cpp/default.asp).
 ---
