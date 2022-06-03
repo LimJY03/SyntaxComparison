@@ -99,6 +99,8 @@ public void my_function(int num){
 ```
 The code above represents a non-static function, in order to access to a non static function in Java, a object respective to its class has to be created.
 
+---
+
 ## **03. Statements**
 
 Every codes contain multiple statements that each do a specific work. Different programming languages have slight differences in writing statements.
