@@ -17,6 +17,7 @@ Comments are used to explain the code we write. At the same time, it enhances co
 | Python | `#` |
 | JavaScript | `//` |
 | Java | `//` |
+| C++ | `//` |
 
 The comment syntax shown above are **single-line comment** syntax, it will only *comment* out that one line. If we want to comment multiple lines (or create a comment block), we will use **multi-line comment** syntax.
 
@@ -49,6 +50,15 @@ Comment Syntax Sample for `java` (similar to `JavaScript`):
    comment syntax are comments */
 ```
 
+Comment Syntax Sample for `C++` (similar to `Java` and `Javascript`):
+
+```c++
+// This is a single-line comment
+
+/* This is a multi-line comment
+   all texts between the open and close 
+   comment syntax are comments */
+```
 ---
 
 ## **02. Indentation**
@@ -99,6 +109,20 @@ public void my_function(int num){
 ```
 The code above represents a non-static function, in order to access to a non static function in Java, a object respective to its class has to be created.
 
+### **C++**
+
+Indentations are normally used (not a must) to show a code block.
+
+```C++
+void my_function(int num){
+
+    std::cout << "This is a function" << endl;
+    std::cout << "that receives a number" << endl;
+    std::cout << "and prints it out" << endl;
+    std::cout << num << endl;
+}
+```
+
 ---
 
 ## **03. Statements**
@@ -115,7 +139,7 @@ num2 = 7
 
 sum = num1 + num2
 
-print(sum)  # 7
+print(sum)  # 12
 ```
 
 Learn more about syntax for `python` at [w3schools.com/py](https://www.w3schools.com/python/python_syntax.asp).
@@ -130,7 +154,7 @@ let num2 = 7
 
 var sum = num1 + num2;
 
-console.log(sum);   // 7
+console.log(sum);   // 12
 ```
 
 Learn more about syntax for `JavaScript` at [w3schools.com/js](https://www.w3schools.com/js/js_syntax.asp).
@@ -145,9 +169,24 @@ int num2 = 7;
 
 int sum = num1 + num2;
 
-System.out.println(sum);    // 7
+System.out.println(sum);    // 12
 ```
 
 Learn more about syntax for `java` at [w3schools.com/java](https://www.w3schools.com/java/java_syntax.asp).
+
+### **C++**
+
+In `C++`, the statement syntax has a rule similar to `Java`: all statements must end with a semicolon `;`.
+
+```c++
+int num1 = 5;
+int num2 = 7;
+
+int sum = num1 + num2;
+
+std::cout << sum;    // 12
+```
+
+Learn more about syntax for `C++` at [w3schools.com/cpp](https://www.w3schools.com/cpp/default.asp).
 
 ---
