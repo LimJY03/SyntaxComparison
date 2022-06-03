@@ -86,7 +86,7 @@ function my_function(num){
 
 ### **Java**
 
-Similar to `JavaScript`, indentations are normally used (not a must) to show a code block. In `Java`, some code blocks with more than 1 line are written inside curly brackets `{}`.
+Similar to `JavaScript`, indentations are normally used (not a must) to show a code block. In `Java`, some code blocks with more than 1 line are written inside curly brackets `{}`. 
 
 ```java
 public void my_function(int num){
@@ -97,8 +97,7 @@ public void my_function(int num){
     System.out.println(num);
 }
 ```
-
----
+The code above represents a non-static function, in order to access to a non static function in Java, a object respective to its class has to be created.
 
 ## **03. Statements**
 
