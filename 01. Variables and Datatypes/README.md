@@ -68,3 +68,28 @@ Similar to `JavaScript`, the *boolean* value is in small caps. Notice that there
 > * Code Example: [variables_and_datatypes.java](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.java)
 
 ---
+
+## **C++**
+
+The declaration of variables in `c++` is rather similar to `Java`, other than spelling differences. The keyword for constant is `const`.
+
+```c++
+int numbers = 5;
+double decimals = 3.7;          // float can be used instead of decimals too.
+char alphabet = 'C';            // '' can only be used for strings with only one character.
+bool logic = true;              // The other boolean value is false. And its only "bool" in constrast with "boolean" in Java
+string texts = "Some string";   // "" must be used for strings with more than one character. And the 'S' is in lower case.
+
+const double PI = 3.141592653;
+```
+
+**IMPORTANT:** For C++, if you need to use strings, you need to include its header file with `#include <string>.`
+
+> ### **Useful Links:**
+> 
+> * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_data_types.asp)
+
+---
+
+
+---
