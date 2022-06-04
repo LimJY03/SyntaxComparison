@@ -48,7 +48,7 @@ Notice that in `JavaScript`, the *boolean* value is `true` and `false` with all 
 
 ## **Java**
 
-In `java`, we will need to declare the variables and constants before assigning values to them, by using their datatype. We will use the it to specify the datatype of variables and constants, and the keyword `final` is used to declare a constant.
+In `Java`, we will need to declare the variables and constants before assigning values to them, by using their datatype. We will use the it to specify the datatype of variables and constants, and the keyword `final` is used to declare a constant.
 
 ```java
 int numbers = 5;
@@ -77,8 +77,8 @@ The declaration of variables in `c++` is rather similar to `Java`, other than sp
 int numbers = 5;
 double decimals = 3.7;          // float can be used instead of decimals too.
 char alphabet = 'C';            // '' can only be used for strings with only one character.
-bool logic = true;              // The other boolean value is false. And its only "bool" in constrast with "boolean" in Java
 string texts = "Some string";   // "" must be used for strings with more than one character. And the 'S' is in lower case.
+bool logic = true;              // The other boolean value is false. And its only "bool" in constrast with "boolean" in Java
 
 const double PI = 3.141592653;
 ```
@@ -88,5 +88,6 @@ const double PI = 3.141592653;
 > ### **Useful Links:**
 > 
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_data_types.asp)
+> > Code Example: [variables_and_datatypes.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.cpp)
 
 ---
