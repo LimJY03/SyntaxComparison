@@ -71,7 +71,7 @@ Similar to `JavaScript`, the *boolean* value is in small caps. Notice that there
 
 ## **C++**
 
-The declaration of variables in `c++` is rather similar to `Java`, other than spelling differences. The keyword for constant is `const`.
+The declaration of variables in `c++` is rather similar to `Java`, other than spelling differences. The keyword `const` is used to declare a constant.
 
 ```c++
 int numbers = 5;
@@ -83,13 +83,10 @@ string texts = "Some string";   // "" must be used for strings with more than on
 const double PI = 3.141592653;
 ```
 
-**IMPORTANT:** For C++, if you need to use strings, you need to include its header file with `#include <string>.`
+**IMPORTANT:** For C++, if you need to use *strings*, you need to include its header file with `#include <string>.`
 
 > ### **Useful Links:**
 > 
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_data_types.asp)
-
----
-
 
 ---
