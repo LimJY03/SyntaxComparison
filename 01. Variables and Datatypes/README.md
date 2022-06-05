@@ -39,6 +39,63 @@ const PI = 3.141592653
 
 Notice that in `JavaScript`, the *boolean* value is `true` and `false` with all small caps.
 
+
+##  **Block Scope**
+Variables declared inside a block scope ```{}``` cannot be accessed from outside the block:
+
+```js
+{
+    let x = 'hello'
+    console.log(x) //prints 'hello'
+}
+
+// x can NOT be accessed right here
+
+```
+
+While variables declared using ```var``` can be accessed from both inside and outside of the block
+
+```js
+var x = 2
+console.log(x) //prints 2
+
+{
+    var x = 3
+    console.log(x) // prints 3
+}
+
+console.log(x) //prints 3
+```
+
+Variable declared using ```let``` cannot be reclared
+
+``` js
+let x = 'John'
+
+let x = 'Leeroy'  //error
+```
+However, it can be changed.
+
+```js
+let x = 'Dog'
+
+x = 'cat'
+
+console.log(x) //prints 'cat'
+```
+
+###  **Hoisting**
+
+Javacript variables declared using ```var``` and ```let``` can hoisted to the top before declaring the variable. This means that u can always assign the value to the variable first before declaring the variable.
+
+```js
+sports = 'soccer'
+
+console.log(sports)  //prints 'soccer'
+
+var x = sports
+```
+
 > ### **Useful Links:**
 > 
 > * Learn More: [w3schools.com/js](https://www.w3schools.com/js/js_variables.asp)
