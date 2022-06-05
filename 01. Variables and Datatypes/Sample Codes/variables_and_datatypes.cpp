@@ -1,6 +1,9 @@
 #include <iostream> //must include to use cout/cin.
 #include <string>   //must include to use strings
 
+// std:: can be simplified by including "using namespace std;" on the top of the program, but it is not too encouraged in the more advanced levels. 
+// For more info on namespaces, refer to https://stackoverflow.com/questions/1452721/why-is-using-namespace-std-considered-bad-practice.
+
 int main(){
 
     // Declare and initialise variables
@@ -11,10 +14,7 @@ int main(){
     bool is_married = false;
 
     const double PI = 3.14159263;
-
-    // std:: can be simplified by including "using namespace std;" on the top of the program, but it is not too encouraged in the more advanced levels. 
-    // For more info on namespaces, refer to https://stackoverflow.com/questions/1452721/why-is-using-namespace-std-considered-bad-practice.
-
+    
     // Output variables
     std::cout << "My favourite number is: " << fav_number << std::endl;                 // My favourite number is 10.
     std::cout << decimal << " is a decimal number." << std::endl;                       // 2.718 is a decimal number.
