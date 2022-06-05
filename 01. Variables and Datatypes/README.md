@@ -83,7 +83,8 @@ bool logic = true;              // The other boolean value is false. And its onl
 const double PI = 3.141592653;
 ```
 
-**IMPORTANT:** For C++, if you need to use *strings*, you need to include its header file with `#include <string>.`
+**IMPORTANT:** For `C++`, if you need to use *strings*, you need to include its header file with `#include <string>.`
+*Side note:* The default output for boolean values in `C++` is `0` or `1`. To output `true` or `false`, add `std::boolalpha` into the `cout` statement.
 
 > ### **Useful Links:**
 > 
