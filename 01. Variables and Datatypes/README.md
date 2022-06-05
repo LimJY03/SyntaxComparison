@@ -39,6 +39,7 @@ const PI = 3.141592653
 
 Notice that in `JavaScript`, the *boolean* value is `true` and `false` with all small caps.
 
+
 ###  **Block Scope**
 Variables declared inside a block scope ```{}``` cannot be accessed from outside the block:
 
