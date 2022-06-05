@@ -116,10 +116,10 @@ Indentations are normally used (not a must) to show a code block.
 ```C++
 void my_function(int num){
 
-    std::cout << "This is a function" << endl;
-    std::cout << "that receives a number" << endl;
-    std::cout << "and prints it out" << endl;
-    std::cout << num << endl;
+    std::cout << "This is a function" << std::endl;
+    std::cout << "that receives a number" << std::endl;
+    std::cout << "and prints it out" << std::endl;
+    std::cout << num << std::endl;
 }
 ```
 
