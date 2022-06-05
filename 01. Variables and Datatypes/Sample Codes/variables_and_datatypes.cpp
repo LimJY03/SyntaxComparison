@@ -22,7 +22,7 @@ int main() {
     std::cout << "My favourite message is " << fav_message << "." << std::endl;     // My favourite message is Hello World.
     std::cout << "Am I married? " << is_married << "." << std::endl;                // Am I married? 0.
     // C++ boolean output gives 0 and 1 for false and true respectively. However true and false can be outputted using the following line:
-    std::cout << "Am I married? " << std::boolalpha << is_married << "." << std::endl;
+    std::cout << "Am I married? " << std::boolalpha << is_married << "." << std::endl; // Am I married? false.
     std::cout << "In math, pi has the value of " << PI << "." << std::endl;         // In math, pi has the value of 3.141592653.
 
     return 0;
