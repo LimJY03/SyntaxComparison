@@ -31,7 +31,7 @@ class conditionals{
         else if(marks >= 60 && marks < 80){
             grade = 'B';
         }
-        else if(marks >= 80){
+        else if(marks >= 80 && marks <= 100){
             grade = 'A';
         }
         else{
