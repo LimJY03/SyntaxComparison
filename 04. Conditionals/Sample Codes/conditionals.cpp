@@ -11,31 +11,31 @@
 
 #include <iostream>
 
-int main() {
+int main(){
 	double marks = 85.0;
 	char grade;
 
-    if (marks >= 0 && marks < 25) {
+    if(marks >= 0 && marks < 25){
         grade = 'F';
     }
-    else if (marks >= 25 && marks < 45) {
+    else if(marks >= 25 && marks < 45){
         grade = 'E';
     }
-    else if (marks >= 45 && marks < 50) {
+    else if(marks >= 45 && marks < 50){
         grade = 'D';
     }
-    else if (marks >= 50 && marks < 60) {
+    else if(marks >= 50 && marks < 60){
         grade = 'C';
     }
-    else if (marks >= 60 && marks < 80) {
+    else if(marks >= 60 && marks < 80){
         grade = 'B';
     }
-    else if (marks >= 80 && marks <=100) {
+    else if(marks >= 80 && marks <=100){
         grade = 'A';
     }
-    else {
+    else{
         std::cout << "Invalid mark!";
-        return -1; // Terminates Program with exit code -1
+        return -1; 			// Terminates Program with exit code -1
     }
 
     std::cout << "Grade is: " << grade; // If program terminates here, exit code is 0.
