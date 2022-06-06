@@ -24,7 +24,7 @@ Unlike other programming languages, `Python` does not have `switch` statement.
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/python](https://www.w3schools.com/python/python_conditions.asp)
-> * Code Example: [conditions.py]()
+> * Code Example: [conditionals.py]()
 
 ---
 
@@ -70,7 +70,7 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/js](https://www.w3schools.com/js/js_if_else.asp)
-> * Code Example: [conditions.js]()
+> * Code Example: [conditionals.js]()
 
 ---
 
@@ -116,7 +116,7 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/java](https://www.w3schools.com/java/java_conditions.asp)
-> * Code Example: [conditions.java]()
+> * Code Example: [conditionals.java]()
 
 ---
 
@@ -162,6 +162,6 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_conditions.asp)
-> * Code Example: [conditions.cpp]()
+> * Code Example: [conditionals.cpp]()
 
 ---
