@@ -67,7 +67,7 @@ console.log(x) //prints 2
 console.log(x) //prints 3
 ```
 
-Variable declared using ```let``` cannot be reclared
+Variable declared using ```let``` cannot be redeclared
 
 ``` js
 let x = 'John'
@@ -148,5 +148,14 @@ const double PI = 3.141592653;
 > 
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_data_types.asp)
 > * Code Example: [variables_and_datatypes.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.cpp)
+
+#### TL;DR:
+
+| Language | Datatypes | Constant | Side notes |
+| :---: | :---: | :---: | :---: |
+| Python | Not required | No support, convention with all CAPITALS |`" "` `' '` are interchangable for strings |
+| JavaScript | Not required | `const` | Usage of `var` and `let`, refer to top. |
+| Java | Required | `final` | `String`, `boolean` |
+| C++ | Required | `const` | `string`, `bool` |
 
 ---
