@@ -36,7 +36,7 @@ class conditionals{
         }
         else{
             System.out.println("Invalid mark!");
-            System.exit(0); // Terminates Program
+            System.exit(0);                             // Terminates Program
         }
 
         System.out.println("Grade is: " + grade);       // Grade is: A
