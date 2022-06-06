@@ -123,6 +123,15 @@ void my_function(int num){
 }
 ```
 
+#### TL;DR :
+
+| Language | Indentation |
+| :---: | :---: |
+| Python | For code blocks |
+| JavaScript | For readability. `{}` for code blocks |
+| Java | For readability. `{}` for code blocks |
+| C++ | For readability. `{}` for code blocks |
+
 ---
 
 ## **03. Statements**
@@ -188,5 +197,14 @@ std::cout << sum;    // 12
 ```
 
 Learn more about syntax for `C++` at [w3schools.com/cpp](https://www.w3schools.com/cpp/default.asp).
+
+#### TL;DR :
+
+| Language | Usage of `;` |
+| :---: | :---: |
+| Python | Not required |
+| JavaScript | Optional |
+| Java | End of all statements |
+| C++ | End of all statements |
 
 ---
