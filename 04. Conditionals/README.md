@@ -24,7 +24,7 @@ Unlike other programming languages, `Python` does not have `switch` statement.
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/python](https://www.w3schools.com/python/python_conditions.asp)
-> * Code Example: [conditionals.py]()
+> * Code Example: [conditionals.py](https://github.com/LimJY03/SyntaxComparison/blob/main/04.%20Conditionals/Sample%20Codes/conditionals.py)
 
 ---
 
@@ -70,7 +70,7 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/js](https://www.w3schools.com/js/js_if_else.asp)
-> * Code Example: [conditionals.js]()
+> * Code Example: [conditionals.js](https://github.com/LimJY03/SyntaxComparison/blob/main/04.%20Conditionals/Sample%20Codes/conditionals.js)
 
 ---
 
@@ -116,7 +116,7 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/java](https://www.w3schools.com/java/java_conditions.asp)
-> * Code Example: [conditionals.java]()
+> * Code Example: [conditionals.java](https://github.com/LimJY03/SyntaxComparison/blob/main/04.%20Conditionals/Sample%20Codes/conditionals.java)
 
 ---
 
@@ -162,6 +162,6 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 > ### Useful Links:
 > 
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_conditions.asp)
-> * Code Example: [conditionals.cpp]()
+> * Code Example: [conditionals.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/04.%20Conditionals/Sample%20Codes/conditionals.cpp)
 
 ---
