@@ -21,7 +21,7 @@ Comments are used to explain the code we write. At the same time, it enhances co
 
 The comment syntax shown above are **single-line comment** syntax, it will only *comment* out that one line. If we want to comment multiple lines (or create a comment block), we will use **multi-line comment** syntax.
 
-Comment Syntax Sample for `python`:
+Comment Syntax Sample for `Python`:
 
 ```py
 # This is a single-line comment
@@ -40,7 +40,7 @@ Comment Syntax Sample for `JavaScript`:
    comment syntax are comments */
 ```
 
-Comment Syntax Sample for `java` (similar to `JavaScript`):
+Comment Syntax Sample for `Java` (similar to `JavaScript`):
 
 ```java
 // This is a single-line comment
@@ -67,7 +67,7 @@ Indentation refers to the spaces at the beginning of a code line. In most of the
 
 ### **Python**
 
-In some programming languages like `python`, indentation is very important as it indicates a block of code. The code blocks are written below the colon `:`
+In some programming languages like `Python`, indentation is very important as it indicates a block of code. The code blocks are written below the colon `:`
 
 ```py
 def my_function(num):
@@ -131,7 +131,7 @@ Every codes contain multiple statements that each do a specific work. Different 
 
 ### **Python**
 
-In `python`, the statement syntax is more basic. We don't need to add `;` to the end of the statement.
+In `Python`, the statement syntax is more basic. We don't need to add `;` to the end of the statement.
 
 ```py
 num1 = 5
@@ -142,11 +142,11 @@ sum = num1 + num2
 print(sum)  # 12
 ```
 
-Learn more about syntax for `python` at [w3schools.com/py](https://www.w3schools.com/python/python_syntax.asp).
+Learn more about syntax for `Python` at [w3schools.com/py](https://www.w3schools.com/python/python_syntax.asp).
 
 ### **JavaScript**
 
-In `JavaScript`, the statement syntax is almost the same as `python`. Adding a semicolon `;` to the end of a statement is optional.
+In `JavaScript`, the statement syntax is almost the same as `Python`. Adding a semicolon `;` to the end of a statement is optional.
 
 ```js
 let num1 = 5
@@ -161,7 +161,7 @@ Learn more about syntax for `JavaScript` at [w3schools.com/js](https://www.w3sch
 
 ### **Java**
 
-In `java`, the statement syntax has a rule: all statements must end with a semicolon `;`.
+In `Java`, the statement syntax has a rule: all statements must end with a semicolon `;`.
 
 ```java
 int num1 = 5;
@@ -172,7 +172,7 @@ int sum = num1 + num2;
 System.out.println(sum);    // 12
 ```
 
-Learn more about syntax for `java` at [w3schools.com/java](https://www.w3schools.com/java/java_syntax.asp).
+Learn more about syntax for `Java` at [w3schools.com/java](https://www.w3schools.com/java/java_syntax.asp).
 
 ### **C++**
 

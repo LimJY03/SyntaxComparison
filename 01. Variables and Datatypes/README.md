@@ -6,7 +6,7 @@ While we are programming or coding, we will be dealing with data most of the tim
 
 ## **Python**
 
-In `python`, we can assign data directly to variables without needing to declare and specify its datatype.
+In `Python`, we can assign data directly to variables without needing to declare and specify its datatype.
 
 ```py
 numbers = 5
@@ -15,7 +15,7 @@ texts = 'Some string'   # "" can be used instead of '' for strings.
 logic = True            # The other boolean value is False.
 ```
 
-However, `python` does not support *constants* usage, but we conventionally name *constants* with all caps. For example: `PI = 3.141592653`
+However, `Python` does not support *constants* usage, but we conventionally name *constants* with all caps. For example: `PI = 3.141592653`
 
 > ### **Useful Links:**
 > 
@@ -117,7 +117,7 @@ boolean logic = true;           // The other boolean value is false.
 final double PI = 3.141592653;
 ```
 
-Similar to `JavaScript`, the *boolean* value is in small caps. Notice that there is a new datatype in `java`, which is `char`. It is the datatype for a single ASCII character. 
+Similar to `JavaScript`, the *boolean* value is in small caps. Notice that there is a new datatype in `Java`, which is `char`. It is the datatype for a single ASCII character. 
 
 > ### **Useful Links:**
 > 
@@ -140,7 +140,8 @@ bool logic = true;              // The other boolean value is false. And its onl
 const double PI = 3.141592653;
 ```
 
-**IMPORTANT:** For `C++`, if you need to use *strings*, you need to include its header file with `#include <string>.`
+**IMPORTANT:** For `C++`, if you need to use *strings*, you need to include its header file with `#include <string>`.
+
 *Side note:* The default output for boolean values in `C++` is `0` or `1`. To output `true` or `false`, add `std::boolalpha` into the `cout` statement.
 
 > ### **Useful Links:**
