@@ -166,7 +166,7 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 
 #### TL;DR:
 
-| Language | `if, else if, else` | `switch..case..default` |
+| Language | `if` Syntax | `switch` Syntax |
 | :---: | :---: | :---: | 
 | Python | `if, elif, else` | No support |
 | JavaScript | `if, else if, else` | `switch..case..default` |
