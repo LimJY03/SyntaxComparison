@@ -164,4 +164,13 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_conditions.asp)
 > * Code Example: [conditionals.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/04.%20Conditionals/Sample%20Codes/conditionals.cpp)
 
+#### TL;DR:
+
+| Language | `if, else if, else` | `switch..case..default` |
+| :---: | :---: | :---: | 
+| Python | `if, elif, else` | No support |
+| JavaScript | `if, else if, else` | `switch..case..default` |
+| Java | `if, else if, else` | `switch..case..default` |
+| C++ | `if, else if, else` | `switch..case..default` |
+
 ---
