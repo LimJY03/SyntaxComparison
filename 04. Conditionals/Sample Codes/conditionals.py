@@ -27,7 +27,7 @@ elif((marks >= 50) & (marks < 60)):
 elif((marks >= 60) & (marks < 80)):
     grade = 'B'
 
-elif(marks >= 80) & (marks <=100):
+elif((marks >= 80) & (marks <=100)):
     grade = 'A'
 
 else:
