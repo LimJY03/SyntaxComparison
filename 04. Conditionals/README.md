@@ -9,9 +9,9 @@ In most programming and coding flow, there are times where we need to define cer
 In `Python`, we use `if` and `elif` to specify each condition and the respective segment that will execute if that condition is fulfilled. Similar to most programming language, the segment under `else` will execute if all the conditions specified are not satisfied.
 
 ```py
-if((num1 >= num2) & (num1 >= num3)):    
+if((num1 >= num2) and (num1 >= num3)):    
     print(num1)
-elif((num2 >= num1) & (num2 >= num3)):  
+elif((num2 >= num1) and (num2 >= num3)):  
     print(num2)
 else:
     print(num3)
@@ -19,11 +19,27 @@ else:
 
 In `Python`, we use a colon `:` after the condition is defined. All segments that will be executed if that condition is `True` **MUST** be indented.
 
-Unlike other programming languages, `Python` does not have `switch` statement.
+For `Python` version **3.10 and above**, it now supports `switch` statement with the keyword `match`.
+
+```py
+match(choice):
+    case 'A':
+        print('Apple Pie')
+    case 'B':
+        print('Blueberry Pudding')
+    case 'C' | 'D':
+        print('Milk Tea')
+    case _:
+        print('Invalid Choice')
+```
+
+`case 'C' | 'D'` means that if the value of choice is `'C'` or `'D'`, the statement below it will execute. Unlike other programming language, `break` statement is not needed for `match`. 
+
+`case _` means the default case.
 
 > ### Useful Links:
 > 
-> * Learn More: [w3schools.com/python](https://www.w3schools.com/python/python_conditions.asp)
+> * Learn More: [w3schools.com/python](https://www.w3schools.com/python/python_conditions.asp) and [docs.python.org](https://docs.python.org/3/whatsnew/3.10.html#pep-634-structural-pattern-matching)
 > * Code Example: [conditionals.py](https://github.com/LimJY03/SyntaxComparison/blob/main/04.%20Conditionals/Sample%20Codes/conditionals.py)
 
 ---
@@ -51,14 +67,14 @@ Like most programming languages, `JavaScript` has a `switch` statement.
 ```js
 switch(choice){
     case 'A':
-        item = 'Apple Pie'
+        console.log('Apple Pie')
         break
     case 'B':
-        item = 'Blueberry Pudding'
+        console.log('Blueberry Pudding')
         break
     case 'C':
     case 'D':
-        item = 'Milk Tea'
+        console.log('Milk Tea')
         break
     default:
         console.log('Invalid Choice')
@@ -97,14 +113,14 @@ Like most programming languages, `Java` has a `switch` statement.
 ```java
 switch(choice){
     case 'A':
-        item = "Apple Pie";
+        System.out.println("Apple Pie");
         break;
     case 'B':
-        item = "Blueberry Pudding";
+        System.out.println("Blueberry Pudding");
         break;
     case 'C':
     case 'D':
-        item = "Milk Tea";
+        System.out.println("Milk Tea");
         break;
     default:
         System.out.println("Invalid Choice");
@@ -143,14 +159,14 @@ Like most programming languages, `C++` has a `switch` statement.
 ```cpp
 switch(choice){
     case 'A':
-        item = "Apple Pie";
+        cout << "Apple Pie" << endl;
         break;
     case 'B':
-        item = "Blueberry Pudding";
+        cout << "Blueberry Pudding" << endl;
         break;
     case 'C':
     case 'D':
-        item = "Milk Tea";
+        cout << "Milk Tea" << endl;
         break;
     default:
         cout << "Invalid Choice" << endl;
@@ -168,7 +184,7 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 
 | Language | `if` Syntax | `switch` Syntax |
 | :---: | :---: | :---: | 
-| Python | `if, elif, else` | No support |
+| Python | `if, elif, else` | `match..case..case _` |
 | JavaScript | `if, else if, else` | `switch..case..default` |
 | Java | `if, else if, else` | `switch..case..default` |
 | C++ | `if, else if, else` | `switch..case..default` |
