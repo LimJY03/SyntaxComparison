@@ -78,7 +78,7 @@ def my_function(num):
     print(num)
 ```
 
-The 4 indented lines are code block belonging to the function `my_function`.
+The code block (4 indented lines) belongs to the function `my_function`.
 
 ### **JavaScript**
 
