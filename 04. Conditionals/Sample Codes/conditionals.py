@@ -9,25 +9,25 @@ Above 80 included - A
 Display grade based on marks.
 '''
 
-marks = 85
+marks = 85.2
 grade = ''
 
-if((marks >= 0) & (marks < 25)):
+if((marks >= 0) and (marks < 25)):
     grade = 'F'
 
-elif((marks >= 25) & (marks < 45)):
+elif((marks >= 25) and (marks < 45)):
     grade = 'E'
 
-elif((marks >= 45) & (marks < 50)):
+elif((marks >= 45) and (marks < 50)):
     grade = 'D'
 
-elif((marks >= 50) & (marks < 60)):
+elif((marks >= 50) and (marks < 60)):
     grade = 'C'
 
-elif((marks >= 60) & (marks < 80)):
+elif((marks >= 60) and (marks < 80)):
     grade = 'B'
 
-elif((marks >= 80) & (marks <=100)):
+elif((marks >= 80) and (marks <=100)):
     grade = 'A'
 
 else:
