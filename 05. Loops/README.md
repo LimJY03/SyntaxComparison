@@ -202,10 +202,8 @@ for (let i = 0; i < 10; i++) {
 
 ---
 <br>
-<br>
-
-
 # **Python**
+<br>
 ## **For Loops**
 In Python, ```for``` loop is used to iterate over a sequence (list, tuple, dictionary, set, string)  \
 
