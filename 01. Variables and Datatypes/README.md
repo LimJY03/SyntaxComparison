@@ -130,15 +130,15 @@ The declaration of variables in `c++` is rather similar to `Java`, other than sp
 
 ```c++
 int numbers = 5;
-double decimals = 3.7;          // float can be used instead of decimals too.
-char alphabet = 'C';            // '' can only be used for strings with only one character.
-string texts = "Some string";   // "" must be used for strings with more than one character. And the 'S' is in lower case.
-bool logic = true;              // The other boolean value is false. And its only "bool" in constrast with "boolean" in Java
+double decimals = 3.7;               // float can be used instead of decimals too.
+char alphabet = 'C';                 // '' can only be used for strings with only one character.
+std::string texts = "Some string";   // "" must be used for strings with more than one character. And the 'S' is in lower case.
+bool logic = true;                   // The other boolean value is false. And its only "bool" in constrast with "boolean" in Java
 
 const double PI = 3.141592653;
 ```
 
-**IMPORTANT:** For `C++`, if you need to use *strings*, you need to include its header file with `#include <string>`.
+**IMPORTANT:** For `C++`, if you need to use *strings*, you need to include its header file with `#include <string>`, thus the `std::` namespace is needed.
 
 *Side note:* The default output for boolean values in `C++` is `0` or `1`. To output `true` or `false`, add `std::boolalpha` into the `cout` statement.
 
@@ -154,6 +154,6 @@ const double PI = 3.141592653;
 | Python | Not required | No support, convention with all CAPITALS |`" "` `' '` are interchangable for strings |
 | JavaScript | Not required | `const` | Usage of `var` and `let`, refer to top. |
 | Java | Required | `final` | `String`, `boolean` |
-| C++ | Required | `const` | `string`, `bool` |
+| C++ | Required | `const` | `std::string`, `bool` |
 
 ---
