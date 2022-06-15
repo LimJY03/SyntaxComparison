@@ -362,7 +362,8 @@ A normal  ```for``` loop in C++ is similar in Java and Javascript:
 > ```c++
 > for (initial; condition; update statement) {
 >  // code block to be executed
->}```
+> }
+> ```
 
 ## **For loops with a range**
 
@@ -370,7 +371,7 @@ It executes a for loop over a range. Used as a more readable equivalent to the t
 
 ```c++
 for ( range_declaration : range_expression ) {
-    //loop_statement
+    // code block to be executed
 }
 ```
 
@@ -378,9 +379,9 @@ The arguments taken:
 
 |Parameter|Explanation|
 |:-:|:-:|
-|range_declaration|Declaration of a named variable, Often uses the auto specifier for automatic type deduction|
+|range_declaration|Declaration of a named variable, often uses the auto specifier for automatic type deduction|
 |range_expression|Any expression that represents a suitable sequence or a braced-init-list (eg. arrays)|
-|loop_statement|The bodu of the loop|
+|loop_statement|The body of the loop|
 
 ### **Example**
 ```c++
@@ -389,7 +390,6 @@ The arguments taken:
     for (auto i : v) {
         std::cout << i << ' ';          //prints 0 1 2 3 4 5 
     }
-
 
 
     // Just running a loop for every array element
@@ -448,7 +448,7 @@ The ```continue``` statement breaks one iteration and continues with the next it
 ```c++
 for (int i = 0; i < 5; i++) {
   if (i == 2) { 
-    break; //continue;
+    break; //or continue;
   }
   text += "The number is " + i + "<br>";
 }
