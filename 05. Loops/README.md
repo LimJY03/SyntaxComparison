@@ -70,7 +70,7 @@ for (let i = 0; i < 10; i++) {
 console.log(i) // prints 5
 ```
 
-## **For /In**
+## **For /in**
 The JavaScript ```for in``` statement loops through the properties of an Object:
 
 > ```js
@@ -123,7 +123,7 @@ function myFunction(value, index, array) {
 }
 ```
 
-## **For /Of**
+## **For /of**
 ```for/ of``` statements loops through the values of an iterable object. It allows you to loop over Arrays, Strings, Maps, Sets and more.
 
 > ```js
@@ -202,8 +202,11 @@ for (let i = 0; i < 10; i++) {
 
 ---
 <br>
+
 # **Python**
+
 <br>
+
 ## **For Loops**
 In Python, ```for``` loop is used to iterate over a sequence (list, tuple, dictionary, set, string)  \
 
@@ -342,14 +345,140 @@ else:
 
 # **Java**
 
-# **C ++**
+# **C++**
+
+```for ``` - loops through a block of code a number of times
+
+```for_each ```- loops through a range of elements and apply an algoritm to it
+
+```while ``` - loops through a block of code while a specified condition is true
+
+```do/ while ``` - also loops through a block of code while a specified condition is true  
+
+<br>
+
+A normal  ```for``` loop in C++ is similar in Java and Javascript:
+    
+> ```c++
+> for (initial; condition; update statement) {
+>  // code block to be executed
+>}```
+
+## **For loops with a range**
+
+It executes a for loop over a range. Used as a more readable equivalent to the traditional for loop operating over a range of values, such as all elements in a container.
+
+```c++
+for ( range_declaration : range_expression ) {
+    //loop_statement
+}
+```
+
+The arguments taken:
+
+|Parameter|Explanation|
+|:-:|:-:|
+|range_declaration|Declaration of a named variable, Often uses the auto specifier for automatic type deduction|
+|range_expression|Any expression that represents a suitable sequence or a braced-init-list (eg. arrays)|
+|loop_statement|The bodu of the loop|
+
+### **Example**
+```c++
+    //looping through elements in an array
+    std::vector<int> v = {0, 1, 2, 3, 4, 5};
+    for (auto i : v) {
+        std::cout << i << ' ';          //prints 0 1 2 3 4 5 
+    }
 
 
 
+    // Just running a loop for every array element
+    int a[] = {0, 1, 2, 3, 4, 5}; 
+    for (int n : a) {
+        std::cout << "In loop" << ' ';  //prints "In loop" 6 times
+    }
+    std::cout << '\n';
+```
+
+## **for_each()**
+
+C++ array has a ```forEach()``` that calls a function (a callback function) once for each array element.
+
+The function takes 3 arguments: 
+- The beginning position
+- The ending position
+- The function or an object function which operation would be applied to each element
+
+```c++
+void printx2(int a) {
+    std::cout << a * 2 << " ";
+}
+
+//in main()
+    int arr[5] = { 1, 5, 2, 4, 3 };
+    std::cout << "Multiple of 2 of elements are : ";
+    for_each(arr1.begin(), arr1.end(), printx2);
+```
+
+## **While Loops**
+> ```c++
+> while (condition) {
+> // code block to be executed
+>}
+>```
+
+### **Example**
+```c++
+while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
+```
+
+## **Do While**
+```c++
+do {
+  // code block to be executed
+}
+while (condition);
+```
+
+### **Example**
+```c++
+do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);
+```
+
+## **Break**
+The ```break``` statement jumps out of a loop. Use ```break``` statement to jump out of code block.
+
+### **Example**
+```c++
+for (int i = 0; i < 5; i++) {
+  if (i == 2) { 
+    break;
+  }
+  text += "The number is " + i + "<br>";
+}
+```
+
+The ```break``` statement breaks out of the loop when counter is 2.
 
 
+## **Continue**
+The ```continue``` statement breaks one iteration and continues with the next iteration in the loop
 
-
-
+### **Example**
+```c++
+for (int i = 0; i < 10; i++) {
+  if (i == 3) {
+    continue;
+  }
+  text += "The number is " + i + "<br>";
+}
+```
 
 
