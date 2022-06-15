@@ -420,65 +420,36 @@ void printx2(int a) {
     for_each(arr1.begin(), arr1.end(), printx2);
 ```
 
-## **While Loops**
-> ```c++
-> while (condition) {
-> // code block to be executed
->}
->```
+## **While and Do-while Loops**
+
+The syntax is similar to `java` and `javascript`.
 
 ### **Example**
+
 ```c++
 while (i < 10) {
   text += "The number is " + i;
   i++;
 }
-```
 
-## **Do While**
-```c++
-do {
-  // code block to be executed
-}
-while (condition);
-```
-
-### **Example**
-```c++
 do {
   text += "The number is " + i;
   i++;
-}
-while (i < 10);
+} while (i < 10);
 ```
 
-## **Break**
+## **Break and Continue**
+
+Similar to `java` and `javascript`:
 The ```break``` statement jumps out of a loop. Use ```break``` statement to jump out of code block.
+The ```continue``` statement breaks one iteration and continues with the next iteration in the loop.
 
 ### **Example**
 ```c++
 for (int i = 0; i < 5; i++) {
   if (i == 2) { 
-    break;
+    break; //continue;
   }
   text += "The number is " + i + "<br>";
 }
 ```
-
-The ```break``` statement breaks out of the loop when counter is 2.
-
-
-## **Continue**
-The ```continue``` statement breaks one iteration and continues with the next iteration in the loop
-
-### **Example**
-```c++
-for (int i = 0; i < 10; i++) {
-  if (i == 3) {
-    continue;
-  }
-  text += "The number is " + i + "<br>";
-}
-```
-
-
