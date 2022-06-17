@@ -357,7 +357,7 @@ else:
 
 <br>
 
-A normal  ```for``` loop in C++ is similar in Java and Javascript:
+A normal  `for` loop in C++ is similar in Java and Javascript:
     
 > ```c++
 > for (initial; condition; update statement) {
@@ -402,7 +402,7 @@ The arguments taken:
 
 ## **for_each()**
 
-C++ array has a ```forEach()``` that calls a function (a callback function) once for each array element.
+C++ array has a `for_each()` that calls a function (a callback function) once for each array element.
 
 The function takes 3 arguments: 
 - The beginning position
@@ -441,8 +441,8 @@ do {
 ## **Break and Continue**
 
 Similar to `java` and `javascript`:
-The ```break``` statement jumps out of a loop. Use ```break``` statement to jump out of code block.
-The ```continue``` statement breaks one iteration and continues with the next iteration in the loop.
+The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
 ### **Example**
 ```c++
