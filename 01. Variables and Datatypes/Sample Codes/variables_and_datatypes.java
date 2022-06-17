@@ -1,6 +1,6 @@
-class variables_and_datatypes{
+class variables_and_datatypes {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // Declare and initialise variables
         int fav_number = 10;

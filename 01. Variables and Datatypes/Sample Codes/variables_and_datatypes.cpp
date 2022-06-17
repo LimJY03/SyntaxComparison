@@ -4,7 +4,7 @@
 // std:: can be simplified by including "using namespace std;" on the top of the program, but it is not too encouraged in the more advanced levels. 
 // For more info on namespaces, refer to https://stackoverflow.com/questions/1452721/why-is-using-namespace-std-considered-bad-practice.
 
-int main(){
+int main() {
 
     // Declare and initialise variables
     int fav_number = 10;
