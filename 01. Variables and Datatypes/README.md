@@ -4,7 +4,7 @@ While we are programming or coding, we will be dealing with data most of the tim
 
 ---
 
-## **Python**
+## Python
 
 In `Python`, we can assign data directly to variables without needing to declare and specify its datatype.
 
@@ -17,14 +17,14 @@ logic = True            # The other boolean value is False.
 
 However, `Python` does not support *constants* usage, but we conventionally name *constants* with all caps. For example: `PI = 3.141592653`
 
-> ### **Useful Links:**
+> ### Useful Links:
 > 
 > * Learn More: [w3schools.com/python](https://www.w3schools.com/python/python_variables.asp)
 > * Code Example: [variables_and_datatypes.py](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.py)
 
 ---
 
-## **JavaScript**
+## JavaScript
 
 In `JavaScript`, we will use the keyword `var` to declare a variable and `const` to declare a constant without needing to specify their datatype.
 
@@ -39,48 +39,50 @@ const PI = 3.141592653
 
 Notice that in `JavaScript`, the *boolean* value is `true` and `false` with all small caps.
 
+### `var` vs `let`
 
-##  **Block Scope**
-Variables declared inside a block scope `{}` cannot be accessed from outside the block:
+1. Unlike `var`, variable declared using `let` cannot be redeclared:
 
-```js
-{
-    let x = 'hello'
-    console.log(x)  // prints 'hello'
-}
+    ``` js
+    let x = 'John'
+    let x = 'Leeroy'    // error occurs
 
-console.log(x)      // error: x can NOT be accessed right here
+    var y = 'John'      // y is 'John'
+    var y = 'Leeroy'    // y is now 'Leeroy'
+    ```
+    However, it's value can be changed.
 
-```
+    ```js
+    let x = 'Dog'
+    x = 'Cat'
 
-While variables declared using `var` can be accessed from both inside and outside of the block
+    console.log(x)      // prints 'Cat'
+    ```
 
-```js
-var x = 2
-console.log(x)      // prints 2
+2. Variables declared with `let` inside a block scope `{}` cannot be accessed from outside the block:
 
-{
-    var x = 3
-    console.log(x)  // prints 3
-}
+    ```js
+    {
+        let x = 'hello'
+        console.log(x)  // prints 'hello'
+    }
 
-console.log(x)      // prints 3
-```
+    console.log(x)      // error: x can NOT be accessed right here
+    ```
 
-Variable declared using `let` cannot be redeclared:
+    Variables declared using `var` can be accessed from both inside and   outside of the block
 
-``` js
-let x = 'John'
-let x = 'Leeroy'    // error occurs
-```
-However, it's value can be changed.
+    ```js
+    var x = 2
+    console.log(x)      // prints 2
 
-```js
-let x = 'Dog'
-x = 'cat'
+    {
+        var x = 3
+        console.log(x)  // prints 3
+    }
 
-console.log(x)      // prints 'cat'
-```
+    console.log(x)      // prints 3
+    ```
 
 ###  **Hoisting**
 
@@ -93,15 +95,14 @@ console.log(sports)  //prints 'soccer'
 
 var x = sports
 ```
-
-> ### **Useful Links:**
+> ### Useful Links:
 > 
 > * Learn More: [w3schools.com/js](https://www.w3schools.com/js/js_variables.asp)
 > * Code Example: [variables_and_datatypes.js](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.js)
 
 ---
 
-## **Java**
+## Java
 
 In `Java`, we will need to declare the variables and constants before assigning values to them, by using their datatype. We will use the it to specify the datatype of variables and constants, and the keyword `final` is used to declare a constant.
 
@@ -117,14 +118,14 @@ final double PI = 3.141592653;
 
 Similar to `JavaScript`, the *boolean* value is in small caps. Notice that there is a new datatype in `Java`, which is `char`. It is the datatype for a single ASCII character. 
 
-> ### **Useful Links:**
+> ### Useful Links:
 > 
 > * Learn More: [w3schools.com/java](https://www.w3schools.com/java/java_variables.asp)
 > * Code Example: [variables_and_datatypes.java](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.java)
 
 ---
 
-## **C++**
+## C++
 
 The declaration of variables in `c++` is rather similar to `Java`, other than spelling differences. The keyword `const` is used to declare a constant.
 
@@ -142,7 +143,7 @@ const double PI = 3.141592653;
 
 *Side note:* The default output for boolean values in `C++` is `0` or `1`. To output `true` or `false`, add `std::boolalpha` into the `cout` statement.
 
-> ### **Useful Links:**
+> ### Useful Links:
 > 
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_data_types.asp)
 > * Code Example: [variables_and_datatypes.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.cpp)
