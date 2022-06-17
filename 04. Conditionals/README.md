@@ -9,9 +9,9 @@ In most programming and coding flow, there are times where we need to define cer
 In `Python`, we use `if` and `elif` to specify each condition and the respective segment that will execute if that condition is fulfilled. Similar to most programming language, the segment under `else` will execute if all the conditions specified are not satisfied.
 
 ```py
-if((num1 >= num2) and (num1 >= num3)):    
+if ((num1 >= num2) and (num1 >= num3)):    
     print(num1)
-elif((num2 >= num1) and (num2 >= num3)):  
+elif ((num2 >= num1) and (num2 >= num3)):  
     print(num2)
 else:
     print(num3)
@@ -22,7 +22,7 @@ In `Python`, we use a colon `:` after the condition is defined. All segments tha
 For `Python` version **3.10 and above**, it now supports `switch` statement with the keyword `match`.
 
 ```py
-match(choice):
+match (choice):
     case 'A':
         print('Apple Pie')
     case 'B':
@@ -49,13 +49,13 @@ match(choice):
 In `JavaScript`, we use `if` and `else if` to specify each condition and the respective segment that will execute if that condition is fulfilled. Similar to most programming language, the segment under `else` will execute if all the conditions specified are not satisfied.
 
 ```js
-if((num1 >= num2) && (num1 >= num3)){
+if ((num1 >= num2) && (num1 >= num3)) {
     console.log(num1)
 }
-else if((num2 >= num1) && (num2 >= num3)){
+else if ((num2 >= num1) && (num2 >= num3)) {
     console.log(num2)
 }
-else{
+else {
     console.log(num3)
 }
 ```
@@ -65,7 +65,7 @@ In `JavaScript`, we use a curly brackets `{}` after the condition is defined. Al
 Like most programming languages, `JavaScript` has a `switch` statement.
 
 ```js
-switch(choice){
+switch (choice) {
     case 'A':
         console.log('Apple Pie')
         break
@@ -95,13 +95,13 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 In `Java`, we use `if` and `else if` to specify each condition and the respective segment that will execute if that condition is fulfilled. Similar to most programming language, the segment under `else` will execute if all the conditions specified are not satisfied.
 
 ```java
-if((num1 >= num2) && (num1 >= num3)){
+if ((num1 >= num2) && (num1 >= num3)) {
     System.out.println(num1);
 }
-else if((num2 >= num1) && (num2 >= num3)){
+else if ((num2 >= num1) && (num2 >= num3)) {
     System.out.println(num2);
 }
-else{
+else {
     System.out.println(num3);
 }
 ```
@@ -111,7 +111,7 @@ In `Java`, we use a curly brackets `{}` after the condition is defined. All segm
 Like most programming languages, `Java` has a `switch` statement.
 
 ```java
-switch(choice){
+switch (choice) {
     case 'A':
         System.out.println("Apple Pie");
         break;
@@ -141,13 +141,13 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 In `C++`, we use `if` and `else if` to specify each condition and the respective segment that will execute if that condition is fulfilled. Similar to most programming language, the segment under `else` will execute if all the conditions specified are not satisfied.
 
 ```cpp
-if((num1 >= num2) && (num1 >= num3)){
+if ((num1 >= num2) && (num1 >= num3)) {
     cout << num1 << endl;
 }
-else if((num2 >= num1) && (num2 >= num3)){
+else if ((num2 >= num1) && (num2 >= num3)) {
     cout << num2 << endl;
 }
-else{
+else {
     cout << num3 << endl;
 }
 ```
@@ -157,7 +157,7 @@ In `C++`, we use a curly brackets `{}` after the condition is defined. All segme
 Like most programming languages, `C++` has a `switch` statement.
 
 ```cpp
-switch(choice){
+switch (choice) {
     case 'A':
         cout << "Apple Pie" << endl;
         break;
