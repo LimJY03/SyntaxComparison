@@ -70,7 +70,7 @@ Notice that in `JavaScript`, the *boolean* value is `true` and `false` with all 
     console.log(x)      // error: x can NOT be accessed right here
     ```
 
-    Variables declared using `var` can be accessed from both inside and   outside of the block
+    Variables declared using `var` can be accessed from both inside and outside of the block:
 
     ```js
     var x = 2

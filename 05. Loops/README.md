@@ -1,211 +1,10 @@
-# **Loops**
+# Loops
 
 Loops are handy, if you want to run the same code over and over again, each time with a different value. 
 
 ---
 
-# **Different Kinds Of Loops**
-
-# **Javascript**   
-
-```for ``` - loops through a block of code a number of times
-
-```for/ in ``` - loops through the properties of an object
-
-```for/ of ``` - loops through the values of an iterable object
-
-```while ``` - loops through a block of code while a specified condition is true
-
-```do/ while ``` - also loops through a block of code while a specified condition is true  
-
-<br>
-
-A normal  ```for``` loops goes as below:
-    
-> ```js
-> for (statement 1; statement 2; statement 3) {
->  // code block to be executed
->}```
-
-**Statement 1** initializes the initial condition of the statement
-
-**Statement 2** defines the condition to determine whether the code block should be executed.
-
-**Statement 3** is executed everytime after the code block has been executed
-
-<br>
-
-## **Example**
-
-```js
-for (let i = 0; i < 5; i++) {
-  message += "This is message " + i;
-}
-```
-
-## **Loop Scope**
-As mentioned before in [Block Scope for Javascript](https://github.com/LimJY03/SyntaxComparison/tree/main/01.%20Variables%20and%20Datatypes#block-scope), ```var``` can be accessed from inside and outside of the block scope where ```let``` could not. This does the same in the loops.
-
-Here's an example of using ```var``` in  for loop:
-
-```js
-var i = 5;
-
-for (var i = 0; i < 10; i++) {
-  // some code
-}
-
-console.log(i) // prints 10
-```
-
-Here's another exampleof using ```let``` in for loop:
-
-```js
-let i = 5;
-
-for (let i = 0; i < 10; i++) {
-  // some code
-}
-
-console.log(i) // prints 5
-```
-
-## **For /in**
-The JavaScript ```for in``` statement loops through the properties of an Object:
-
-> ```js
-> for (key in object) {
->  // code block to be executed
->}
-> ```
-
-### **Example**
-
-```js
-const dog = {gender:"Male", breed:"Golden Retriever", age:5};
-
-let text = "";
-
-for (let x in dog) {
-  text += dog[x];
-}
-```
-
-
-
-- The <strong>for in</strong>  loop iterates over a **person** object
-
-- Each iteration returns a **key** (x)
-
-- The key is used to access the **value** of the key
-
-- The value of the key is **person[x]**
-
-<br>
-
-## **Array.forEach()**
-
-Javascript array has a ```forEach()``` that calls a function (a callback function) once for each array element.
-
-The function takes 3 arguments: 
-- item value
-- item index
-- the array itself
-
-```js
-const numbers = [45, 4, 9, 16, 25];
-
-let txt = "";
-numbers.forEach(myFunction);
-
-function myFunction(value, index, array) {
-  txt += value;
-}
-```
-
-## **For /of**
-```for/ of``` statements loops through the values of an iterable object. It allows you to loop over Arrays, Strings, Maps, Sets and more.
-
-> ```js
-> for (variable of iterable) {
-> // code block to be executed
->}
->```
-
-### **Example**
-
-```js
-let hobby = "programming";
-
-let text = "";
-for (let x of hobby) {
-    text += x;
-}
-```
-
-## **While Loops**
-> ```js
-> while (condition) {
-> // code block to be executed
->}
->```
-
-### **Example**
-```js
-while (i < 10) {
-  text += "The number is " + i;
-  i++;
-}
-```
-
-## **Do While**
-```js
-do {
-  // code block to be executed
-}
-while (condition);
-```
-
-### **Example**
-```js
-do {
-  text += "The number is " + i;
-  i++;
-}
-while (i < 10);
-```
-
-## **Break**
-The ```break``` statement jumps out of a loop. Use ```break``` statement to jump out of code block.
-
-### **Example**
-```js
-for (let i = 0; i < 5; i++) {
-  if (i === 2) { break; }
-  text += "The number is " + i + "<br>";
-}
-```
-
-The ```break``` statement breaks out of the loop when counter is 2.
-
-
-## **Continue**
-The ```continue``` statement breaks one iteration and continues with the next iteration in the loop
-
-### **Example**
-```js
-for (let i = 0; i < 10; i++) {
-  if (i === 3) { continue; }
-  text += "The number is " + i + "<br>";
-}
-```
-
----
-<br>
-
 # **Python**
-
-<br>
 
 ## **For Loops**
 In Python, ```for``` loop is used to iterate over a sequence (list, tuple, dictionary, set, string)  \
@@ -213,9 +12,10 @@ In Python, ```for``` loop is used to iterate over a sequence (list, tuple, dicti
 ```for``` loop does not require an indexing variable to set beforehand in Python.
 
 ```py
- fruits = ["apple", "banana", "cherry"]
- for x in fruits:
-   print(x)
+fruits = ["apple", "banana", "cherry"]
+
+for x in fruits:
+  print(x)
 ```
 ### **Looping through a String**
 ```py
@@ -228,6 +28,7 @@ Use ```break``` statement to stop the loop before it has looped through all the 
 
 ```py
 sports = ["football", "basketball", "baseball"]
+
 for x in fruits:
   print(x)
   if x == "basketball":
@@ -309,7 +110,8 @@ while i < 6: # As long as the value of i is smaller than 6
 
 The ```break``` and ```continue``` do the same in ```while``` loop as what they do in ```for``` loop: 
 
-### **Example**
+### Example
+
 >```py
 >i = 1
 >while i < 6:
@@ -338,22 +140,218 @@ else:
   ```
 
 ---
-<br>
-<br>
+
+# JavaScript
+
+There are 5 types of loops in `JavaScript`:
+
+1. `for` - loops through a block of code a number of times.
+2. `for...in` - loops through the properties of an object.
+3. `for...of` - loops through the values of an iterable object (Arrays, Strings, Maps, Sets, etc.)
+4. `while` - loops through a block of code while a specified condition is true.
+5. `do...while` - also loops through a block of code while a specified condition is true.
+
+## The `for` Loop
+
+The general syntax of `for` loop goes as below:
+    
+> ```js
+> for (statement 1; statement 2; statement 3) {
+>   // code block to be executed
+> }
+> ```
+
+* **Statement 1** initializes the initial condition of the statement.
+* **Statement 2** defines the condition to determine whether the code block should be executed.
+* **Statement 3** is executed everytime after the code block has been executed.
+
+### Example
+
+```js
+for (let i = 0; i < 5; i++) {
+  message += "This is message " + i;
+}
+```
+
+### Loop Scope
+
+As mentioned before in [Block Scope for Javascript](https://github.com/LimJY03/SyntaxComparison/tree/main/01.%20Variables%20and%20Datatypes#block-scope), `var` can be accessed from inside and outside of the block scope whereas `let` could not. This does the same in loops.
+
+* Here's an example of using `var` in `for` loop:
+
+  ```js
+  var i = 5;
+
+  for (var i = 0; i < 10; i++) {
+    // some code
+  }
+
+  console.log(i)  // prints 10
+  ```
+
+* Here's an example of using ```let``` in `for` loop:
+
+  ```js
+  let i = 5;
+
+  for (let i = 0; i < 10; i++) {
+    // some code
+  }
+
+  console.log(i)  // prints 5
+  ```
+
+## The `for...in` Loop
+
+The general syntax of `for...in` loop goes as below:
+
+> ```js
+> for (key in object) {
+>   // code block to be executed
+> }
+> ```
+
+### Example
+
+```js
+const dog = {gender:"Male", breed:"Golden Retriever", age:5};
+let text = "";
+
+for (let x in dog) {
+  text += dog[x];
+}
+```
+
+* The `for...in` loop iterates over the `dog` **object**.
+* Each iteration returns a **key** `x`.
+* The key is used to access the **value** of the key.
+* The value of the key is `dog[x]`.
+
+## Array.forEach()
+
+Javascript array has a ```forEach()``` that calls a function (a callback function) once for each array element.
+
+The function takes 3 arguments: 
+
+* item value
+* item index
+* the array itself
+
+```js
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array) {
+  txt += value;
+}
+```
+
+## The `for...of` Loop
+
+The general syntax of `for...of` loop goes as below:
+
+> ```js
+> for (variable of iterable) {
+>   // code block to be executed
+> }
+> ```
+
+### Example
+
+```js
+let hobby = "programming";
+let text = "";
+
+for (let x of hobby) {
+    text += x;
+}
+```
+
+## The `while` Loop
+
+The general syntax of `while` loop goes as below:
+
+> ```js
+> while (condition) {
+>   // code block to be executed
+> }
+> ```
+
+### Example
+
+```js
+while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
+```
+
+## The `do...while` Loop
+
+The general syntax of `do...while` loop goes as below:
+
+> ```js
+> do {
+>   // code block to be executed
+> }
+> while (condition);
+> ```
+
+### Example
+
+```js
+do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);
+```
+
+## Break
+
+The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+
+### Example
+
+```js
+for (let i = 0; i < 5; i++) {
+  if (i === 2) { break; }
+  text += "The number is " + i + "<br>";
+}
+```
+
+The `break` statement breaks out of the loop when counter is 2.
 
 
+## **Continue**
 
-# **Java**
+The ```continue``` statement breaks one iteration and continues with the next iteration in the loop
 
-# **C++**
+### **Example**
+```js
+for (let i = 0; i < 10; i++) {
+  if (i === 3) { continue; }
+  text += "The number is " + i + "<br>";
+}
+```
 
-```for ``` - loops through a block of code a number of times
+---
 
-```for_each ```- loops through a range of elements and apply an algoritm to it
+# Java
 
-```while ``` - loops through a block of code while a specified condition is true
+---
 
-```do/ while ``` - also loops through a block of code while a specified condition is true  
+# C++
+
+```for``` - loops through a block of code a number of times
+
+```for_each```- loops through a range of elements and apply an algoritm to it
+
+```while``` - loops through a block of code while a specified condition is true
+
+```do/ while``` - also loops through a block of code while a specified condition is true  
 
 <br>
 
