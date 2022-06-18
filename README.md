@@ -34,3 +34,13 @@ We welcome professionals to contribute to this project so that we can support mo
 More enquires can be made [here](mailto:limjunyi03@gmail.com).
 
 ---
+
+## **Special thanks to...**
+
+@LimJY03 : Project creator, content for `Java`, `Python` and `Javascript`
+
+@AsynchronousNotAvailable : Content for `Python` and `Javascript`
+
+@PoisonDarterz : Content for `C++`
+
+---
