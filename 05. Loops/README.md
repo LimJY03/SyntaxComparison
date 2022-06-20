@@ -23,30 +23,6 @@ for x in "banana":
   print(x)
 ```
 
-## **Break**
-Use ```break``` statement to stop the loop before it has looped through all the items:
-
-```py
-sports = ["football", "basketball", "baseball"]
-
-for x in fruits:
-  print(x)
-  if x == "basketball":
-    break
-# prints "football" only
-```
-
-## **Continue**
-```continue``` statement stops the current iteration and continue with the next loop:
-
-```py
-fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-  if x == "banana":
-    continue
-  print(x)
-```
-
 ## **range()**
 ```range()``` returns a sequence of numbers, starting from 0 by default, and increased by 1 by default and ends at a specified number.
 
@@ -107,27 +83,7 @@ while i < 6: # As long as the value of i is smaller than 6
   print(i)
   i += 1
   ```
-
-The ```break``` and ```continue``` do the same in ```while``` loop as what they do in ```for``` loop: 
-
-### Example
-
->```py
->i = 1
->while i < 6:
-> print(i)
-> if i == 3:
->    break
->    i += 1
->```
->```py
->i = 0
->while i < 6:
-> i += 1
-> if i == 3:
->   continue
->  print(i)```
-
+  
 The ```else``` statement is used to execute the code block when the condition is no longer met.
 
 ```py
@@ -137,7 +93,36 @@ while i < 6:
   i += 1
 else:
   print("i is no longer less than 6")
-  ```
+```
+  
+  
+## **Break and Continue**
+
+Similar across most languages:
+The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+The `continue` statement breaks one iteration and continues with the next iteration in the loop.
+
+The ```break``` and ```continue``` do the same in ```while``` loop as what they do in ```for``` loop: 
+
+### Example
+
+```py
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+```
+
+```py
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+    i += 1
+```
+
 
 ---
 
@@ -308,12 +293,15 @@ do {
 }
 while (i < 10);
 ```
+## **Break and Continue**
 
-## Break
-
+Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
 ### Example
+
+`break` usage:
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -323,13 +311,8 @@ for (let i = 0; i < 5; i++) {
 ```
 
 The `break` statement breaks out of the loop when counter is 2.
+`continue` usage:
 
-
-## **Continue**
-
-The ```continue``` statement breaks one iteration and continues with the next iteration in the loop
-
-### **Example**
 ```js
 for (let i = 0; i < 10; i++) {
   if (i === 3) { continue; }
@@ -341,6 +324,86 @@ for (let i = 0; i < 10; i++) {
 
 # Java
 
+```for``` - loops through a block of code a number of times
+
+```while``` - loops through a block of code while a specified condition is true
+
+```do/ while``` - also loops through a block of code while a specified condition is true  
+
+<br>
+
+A normal  `for` loop in `Java` is similar to `Javascript` and `C++`:
+    
+> ```java
+> for (initial; condition; update statement) {
+>  // code block to be executed
+> }
+> ```
+
+## **For loops with a range**
+
+It executes a for loop over over all elements in an array
+
+```java
+for ( range_declaration : range_expression ) {
+    // code block to be executed
+}
+```
+
+The arguments taken:
+
+|Parameter|Explanation|
+|:-:|:-:|
+|range_declaration|`dataType varName`|
+|range_expression|array or collection(eg. ArrayList)|
+|loop_statement|The body of the loop|
+
+### **Example**
+```java
+//looping through elements in an array
+int[6] v = {0, 1, 2, 3, 4, 5};
+int sum = 0;
+for (int i : v) {
+    System.out.println(i + " ");           //prints 0 1 2 3 4 5 
+    sum = sum + i;
+}
+System.out.println("The sum is: " + sum);  //prints The sum is: 15
+```
+
+
+## **While and Do-while Loops**
+
+The syntax is similar to `C++` and `javascript`.
+
+### **Example**
+
+```java
+while (i < 10) {
+  System.out.println("The number is " + i);
+  i++;
+}
+
+do {
+  System.out.println("The number is " + i);
+  i++;
+} while (i < 10);
+```
+
+## **Break and Continue**
+
+Similar across most languages:
+The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+The `continue` statement breaks one iteration and continues with the next iteration in the loop.
+
+### **Example**
+```java
+for (int i = 0; i < 5; i++) {
+  if (i == 2) { 
+    break; //or continue;
+  }
+  System.out.println("The number is " + i);
+}
+```
 ---
 
 # C++
@@ -383,19 +446,19 @@ The arguments taken:
 
 ### **Example**
 ```c++
-    //looping through elements in an array
-    std::vector<int> v = {0, 1, 2, 3, 4, 5};
-    for (auto i : v) {
-        std::cout << i << ' ';          //prints 0 1 2 3 4 5 
-    }
+//looping through elements in an array
+std::vector<int> v = {0, 1, 2, 3, 4, 5};
+for (auto i : v) {
+    std::cout << i << ' ';          //prints 0 1 2 3 4 5 
+}
 
 
-    // Just running a loop for every array element
-    int a[] = {0, 1, 2, 3, 4, 5}; 
-    for (int n : a) {
-        std::cout << "In loop" << ' ';  //prints "In loop" 6 times
-    }
-    std::cout << '\n';
+// Just running a loop for every array element
+int a[] = {0, 1, 2, 3, 4, 5}; 
+for (int n : a) {
+    std::cout << "In loop" << ' ';  //prints "In loop" 6 times
+}
+std::cout << std::endl;
 ```
 
 ## **for_each()**
@@ -426,19 +489,19 @@ The syntax is similar to `java` and `javascript`.
 
 ```c++
 while (i < 10) {
-  text += "The number is " + i;
+  std::cout << "The number is " << i;
   i++;
 }
 
 do {
-  text += "The number is " + i;
+  std::cout << "The number is " << i;
   i++;
 } while (i < 10);
 ```
 
 ## **Break and Continue**
 
-Similar to `java` and `javascript`:
+Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
 The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
@@ -448,6 +511,21 @@ for (int i = 0; i < 5; i++) {
   if (i == 2) { 
     break; //or continue;
   }
-  text += "The number is " + i + "<br>";
+  std::cout << "The number is " << i << std::endl;
 }
 ```
+
+---
+
+#### TL;DR:
+
+| Language | `while` and `do-while` | `for` Syntax | `foreach` Support |
+| :---: | :---: | :---: | :---: | 
+| Python | `while` only | `for x in range` | No |
+| JavaScript | `while` and `do-while` | `for (i; c; u)` `for..in` `for..of` | Yes |
+| Java | `while` and `do-while` | `for (i; c; u)` and `for(var:range)` | No |
+| C++ | `while` and `do-while` | `for (i; c; u)` and `for(var:range)`| Yes |
+
+All languages above has `break` and `continue` for the same usage.
+
+---
