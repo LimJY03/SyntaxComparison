@@ -341,6 +341,86 @@ for (let i = 0; i < 10; i++) {
 
 # Java
 
+```for``` - loops through a block of code a number of times
+
+```while``` - loops through a block of code while a specified condition is true
+
+```do/ while``` - also loops through a block of code while a specified condition is true  
+
+<br>
+
+A normal  `for` loop in `Java` is similar to `Javascript` and `C++`:
+    
+> ```java
+> for (initial; condition; update statement) {
+>  // code block to be executed
+> }
+> ```
+
+## **For loops with a range**
+
+It executes a for loop over over all elements in an array
+
+```java
+for ( range_declaration : range_expression ) {
+    // code block to be executed
+}
+```
+
+The arguments taken:
+
+|Parameter|Explanation|
+|:-:|:-:|
+|range_declaration|`dataType varName`|
+|range_expression|array or collection(eg. ArrayList)|
+|loop_statement|The body of the loop|
+
+### **Example**
+```java
+//looping through elements in an array
+int[6] v = {0, 1, 2, 3, 4, 5};
+int sum = 0;
+for (int i : v) {
+    System.out.println(i + " ");           //prints 0 1 2 3 4 5 
+    sum = sum + i;
+}
+System.out.println("The sum is: " + sum);  //prints The sum is: 15
+```
+
+
+## **While and Do-while Loops**
+
+The syntax is similar to `C++` and `javascript`.
+
+### **Example**
+
+```java
+while (i < 10) {
+  System.out.println("The number is " + i);
+  i++;
+}
+
+do {
+  System.out.println("The number is " + i);
+  i++;
+} while (i < 10);
+```
+
+## **Break and Continue**
+
+Similar to `C++` and `javascript`:
+The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+The `continue` statement breaks one iteration and continues with the next iteration in the loop.
+
+### **Example**
+```java
+for (int i = 0; i < 5; i++) {
+  if (i == 2) { 
+    break; //or continue;
+  }
+  System.out.println("The number is " + i);
+}
+```
 ---
 
 # C++
@@ -383,19 +463,19 @@ The arguments taken:
 
 ### **Example**
 ```c++
-    //looping through elements in an array
-    std::vector<int> v = {0, 1, 2, 3, 4, 5};
-    for (auto i : v) {
-        std::cout << i << ' ';          //prints 0 1 2 3 4 5 
-    }
+//looping through elements in an array
+std::vector<int> v = {0, 1, 2, 3, 4, 5};
+for (auto i : v) {
+    std::cout << i << ' ';          //prints 0 1 2 3 4 5 
+}
 
 
-    // Just running a loop for every array element
-    int a[] = {0, 1, 2, 3, 4, 5}; 
-    for (int n : a) {
-        std::cout << "In loop" << ' ';  //prints "In loop" 6 times
-    }
-    std::cout << '\n';
+// Just running a loop for every array element
+int a[] = {0, 1, 2, 3, 4, 5}; 
+for (int n : a) {
+    std::cout << "In loop" << ' ';  //prints "In loop" 6 times
+}
+std::cout << std::endl;
 ```
 
 ## **for_each()**
@@ -426,12 +506,12 @@ The syntax is similar to `java` and `javascript`.
 
 ```c++
 while (i < 10) {
-  text += "The number is " + i;
+  std::cout << "The number is " << i;
   i++;
 }
 
 do {
-  text += "The number is " + i;
+  std::cout << "The number is " << i;
   i++;
 } while (i < 10);
 ```
@@ -448,6 +528,6 @@ for (int i = 0; i < 5; i++) {
   if (i == 2) { 
     break; //or continue;
   }
-  text += "The number is " + i + "<br>";
+  std::cout << "The number is " << i << std::endl;
 }
 ```
