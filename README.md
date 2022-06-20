@@ -31,6 +31,8 @@ It is very simple to use this repository.
 
 We welcome professionals to contribute to this project so that we can support more programming languages. Feel free to *make a pull request* and add the programming language of preference to each section for every programming concepts. 
 
+For more info on contributing to this project, please read [our contribution guidelines](https://github.com/LimJY03/SyntaxComparison/blob/main/CONTRIBUTIONS.md).
+
 More enquires can be made [here](mailto:limjunyi03@gmail.com).
 
 ---
