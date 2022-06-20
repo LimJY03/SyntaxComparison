@@ -36,3 +36,8 @@ For more info on contributing to this project, please read [our contribution gui
 More enquires can be made [here](mailto:limjunyi03@gmail.com).
 
 ---
+
+
+<a href="https://github.com/LimJY03/SyntaxComparison/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LimJY03/SyntaxComparison" />
+</a>
