@@ -531,3 +531,18 @@ for (int i = 0; i < 5; i++) {
   std::cout << "The number is " << i << std::endl;
 }
 ```
+
+---
+
+#### TL;DR:
+
+| Language | `while` and `do-while` | `for` Syntax | `foreach` Support |
+| :---: | :---: | :---: | :---: | 
+| Python | `while` only | `for x in range` | No |
+| JavaScript | `while` and `do-while` | `for (i; c; u)` `for..in` `for..of` | Yes |
+| Java | `while` and `do-while` | `for (i; c; u)` and `for(var:range)` | No |
+| C++ | `while` and `do-while` | `for (i; c; u)` and `for(var:range)`| Yes |
+
+All languages above has `break` and `continue` for the same usage.
+
+---
