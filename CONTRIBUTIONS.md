@@ -13,10 +13,10 @@ With this in mind, we would like to thank every contributors in investing their 
 
 |  | Contributors | Role In The Project |
 | --- | :---: | --- |
-| 1. | [Lim JY](https://github.com/LimJY03) | <!-- Delete This Comment and Enter Role Guide Here --> |
-| 2. | [Cheah Zixu](https://github.com/genesis331) | <!-- Delete This Comment and Enter Role Guide Here --> |
-| 3. | [Weng Hong](https://github.com/AsynchronousNotAvailable) | <!-- Delete This Comment and Enter Role Guide Here --> |
-| 4. | [JC Chuan](https://github.com/PoisonDarterz) | <!-- Delete This Comment and Enter Role Guide Here --> |
+| 1. | [Lim JY](https://github.com/LimJY03) | Project creator, General content manager |
+| 2. | [Cheah Zixu](https://github.com/genesis331) | Maintenance Administrator |
+| 3. | [Weng Hong :D](https://github.com/AsynchronousNotAvailable) | `Javascript` and `Python` content manager |
+| 4. | [JC Chuan](https://github.com/PoisonDarterz) | `C++` and `Java` content manager |
 
 ---
 
