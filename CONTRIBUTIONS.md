@@ -7,7 +7,7 @@ With this in mind, we would like to thank every contributors in investing their 
 > **Note**
 > <br>To get to a specific section on this docs, click the **Table Of Contents** icon on the top left corner of this document.
 >
-> ![toc_icon]()
+> ![toc_icon](https://media.discordapp.net/attachments/988351630984495114/988352452141142036/Picture1.png?width=1440&height=247)
 
 ## Our Current Contributors
 
@@ -27,7 +27,7 @@ To get the overview of this project, take a look at the [README.md](https://gith
 * [Contributing to Projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 * [GitHub Flow to Collaborate](https://docs.github.com/en/get-started/quickstart/github-flow)
 
-If you want to contribute, be sure to read the [Design System]() in our project especially for markdown formatting and structuring. If you are new to markdown syntax, here are some resources that may help you:
+If you want to contribute, be sure to read the [Design System](https://github.com/LimJY03/SyntaxComparison/blob/main/CONTRIBUTIONS.md#design-system) in our project especially for markdown formatting and structuring. If you are new to markdown syntax, here are some resources that may help you:
 
 * [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 * [Markdown Extended Syntax](https://www.markdownguide.org/extended-syntax/)
