@@ -31,10 +31,10 @@ The array size is fixed once it is initialized.
 ### Example
 
 ```java
-int[] myNum = {10, 20, 30};          //declares array with 3 elements
-System.out.println(myNum[0]);        //prints 10
+int[] myNum = {10, 20, 30};          // declares array with 3 elements
+System.out.println(myNum[0]);        // prints 10
 
-int[] myNum2 = new int[5];           //declares empty array with size 5
+int[] myNum2 = new int[5];           // declares empty array with size 5
 ```
 
 ### Getting array length
@@ -99,7 +99,7 @@ The array size can also be omitted if the elements are immediately initialized. 
 ### Example
 
 ```c++
-std::string cars[] = {"Volvo", "BMW", "Ford"}; // size of array is always 3
+std::string cars[] = {"Volvo", "BMW", "Ford"};  // size of array is always 3
 ```
 
 ### Getting array size / length
@@ -114,8 +114,8 @@ To get the *length* of an array, you have to divide the size of the array by the
 int myNumbers[5] = {10, 20, 30, 40, 50};
 int getSize = sizeof(myNumbers);
 int getArrayLength = sizeof(myNumbers) / sizeof(int);
-std::cout << getSize;                                 //prints 20 (int uses 4 bytes)
-std::cout << getArrayLength;                          //prints 5
+std::cout << getSize;                                  // prints 20 (int uses 4 bytes)
+std::cout << getArrayLength;                           // prints 5
 ```
 
 ### Note about strings and char*
@@ -148,9 +148,9 @@ The elements can be accessed using index numbers in a similar way to an array.
 std::vector<int> vect{ 10, 20, 30 };
  
 for (int x : vect){
-    std::cout << x << " ";
+    std::cout << x << " ";             // prints 10 20 30
 }
-//prints 10 20 30
+
 ```
 
 ### Table of common functions for `vector`
