@@ -18,7 +18,7 @@ amet consectetur
 
 # Java
 
-There are a few way to declare Java array, one of it being `datatype[] array;`.
+There are a few way to declare `Java` arrays, one of it being `datatype[] array;`.
 
 ArrayLists can be declared through `ArrayList<datatype> listName;`.
 
@@ -50,7 +50,28 @@ System.out.println(cars.length);                     // Outputs 4
 
 ## ArrayLists
 
+The ArrayList is a resizable array, which needs to be imported using `import java.util.ArrayList;`.
 
+### ArrayList declaration Example
+
+```java
+ArrayList<String> cars = new ArrayList<String>();
+```
+
+### Table of common functions for `ArrayList`
+
+Let `cars` be our ArrayList name.
+
+| Function | Description |
+| :---: | :---: |
+| `cars.get(index)` | Access element in index |
+| `cars.add(element)` | Insert element at the end |
+| `cars.set(index, element)` | Modifies element in index |
+| `cars.remove(index)` | Delete element in index |
+| `cars.clear()` | Delete all elements |
+| `cars.size()` | Returns *length* of the list |
+| `Collections.sort(cars)` | Sorts the list (requires `import java.util.Collections`) |
+| `cars.isEmpty()` | Returns `true` if list is empty |
 
 ---
 
