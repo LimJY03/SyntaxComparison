@@ -31,10 +31,10 @@ The array size is fixed once it is initialized.
 ### Example
 
 ```java
-int[] myNum = {10, 20, 30};          // declares array with 3 elements
-System.out.println(myNum[0]);        // prints 10
+int[] myNum = {10, 20, 30};                      // declares array with 3 elements
+System.out.println(myNum[0]);                    // prints 10
 
-int[] myNum2 = new int[5];           // declares empty array with size 5
+int[] myNum2 = new int[5];                       // declares empty array with size 5
 ```
 
 ### Getting array length
@@ -45,7 +45,7 @@ You can use `array.length` to get the length of an array.
 
 ```java
 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-System.out.println(cars.length);                     // Outputs 4
+System.out.println(cars.length);                  // Outputs 4
 ```
 
 ## ArrayLists
@@ -91,7 +91,7 @@ The array size is fixed once it is initialized.
 
 ```c++
 int myNum[3] = {10, 20, 30};
-std::cout << myNum[0];        //prints 10
+std::cout << myNum[0];                                //prints 10
 ```
 
 The array size can also be omitted if the elements are immediately initialized. The array will be as big as the number of elements inserted into it.
@@ -99,7 +99,7 @@ The array size can also be omitted if the elements are immediately initialized. 
 ### Example
 
 ```c++
-std::string cars[] = {"Volvo", "BMW", "Ford"};  // size of array is always 3
+std::string cars[] = {"Volvo", "BMW", "Ford"};        // size of array is always 3
 ```
 
 ### Getting array size / length
@@ -148,7 +148,7 @@ The elements can be accessed using index numbers in a similar way to an array.
 std::vector<int> vect{ 10, 20, 30 };
  
 for (int x : vect){
-    std::cout << x << " ";             // prints 10 20 30
+    std::cout << x << " ";                 // prints 10 20 30
 }
 
 ```
@@ -175,5 +175,5 @@ Let `vect` be our vector name.
 | :---: | :---: | :---: | 
 | Python |  |  |
 | JavaScript |  |  |
-| Java | `datatype array[]` | `ArrayList<datatype> list` |
+| Java | `datatype[] array` | `ArrayList<datatype> list` |
 | C++ | `datatype array[]` | `std::vector<datatype> vect` |
