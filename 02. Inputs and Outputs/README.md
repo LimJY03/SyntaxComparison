@@ -45,7 +45,7 @@ Let `sc` be our Scanner object for these common input datatypes.
 
 ### Example
 
-The code example can be referred in [link].
+The code example can be referred in [here](https://github.com/PoisonDarterz/SyntaxComparison/blob/40894f346b4406013ffc2c0f705da71086abafaf/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.java).
 
 ---
 
@@ -71,7 +71,7 @@ C++ also supports reading multiple inputs in one line. The values can be declare
 
 ### Example
 
-The code example can be referred in [link].
+The code example can be referred in [here](https://github.com/PoisonDarterz/SyntaxComparison/blob/40894f346b4406013ffc2c0f705da71086abafaf/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.cpp).
 
 ---
 
