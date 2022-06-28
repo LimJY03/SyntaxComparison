@@ -1,7 +1,7 @@
 # Inputs and Outputs (Console)
 
 Lorem ipsum
-<-- rmb talk about escape characters, i believe most langs are almost the same for escape characters -->
+<!-- rmb talk about escape characters, i believe most langs are almost the same for escape characters -->
 
 ---
 
@@ -46,9 +46,10 @@ Let `sc` be our Scanner object for these common input datatypes.
 
 Note that other than `nextLine()`, the other inputs are delimited by `whitespace` or `newline` character. Using the wrong input function results in a runtime error.
 
-### Example
-
-The code example can be referred in [here](https://github.com/PoisonDarterz/SyntaxComparison/blob/40894f346b4406013ffc2c0f705da71086abafaf/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.java).
+> ### Useful Links
+> 
+> * Learn More: [w3schools.com/java - input](https://www.w3schools.com/java/java_user_input.asp) and [w3schools.com/java - output](https://www.w3schools.com/java/java_output.asp)
+> * Code Example: [input_and_output.java](https://github.com/LimJY03/SyntaxComparison/blob/main/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.java)
 
 ---
 
@@ -72,9 +73,10 @@ Therefore we can use the `getline(cin, varName)` function to read an entire line
 
 C++ also supports reading multiple inputs in one line. The values can be declared by using `whitespace` between inputs in the console and using the `>>` operator between variables in the program.
 
-### Example
-
-The code example can be referred in [here](https://github.com/PoisonDarterz/SyntaxComparison/blob/40894f346b4406013ffc2c0f705da71086abafaf/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.cpp).
+> ### Useful Links
+> 
+> * Learn More: [w3schools.com/cpp - input](https://www.w3schools.com/cpp/cpp_user_input.asp) and [w3schools.com/cpp - output](https://www.w3schools.com/cpp/cpp_output.asp)
+> * Code Example: [input_and_output.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.cpp)
 
 ---
 
