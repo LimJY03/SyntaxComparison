@@ -1,6 +1,7 @@
 # Inputs and Outputs (Console)
 
 Lorem ipsum
+<-- rmb talk about escape characters, i believe most langs are almost the same for escape characters -->
 
 ---
 
@@ -42,6 +43,8 @@ Let `sc` be our Scanner object for these common input datatypes.
 | `sc.nextDouble()` | `double` |
 | `sc.next.charAt(n)` | The `char` at the *n*th index. |
 | `sc.nextBoolean()` | `boolean` |
+
+Note that other than `nextLine()`, the other inputs are delimited by `whitespace` or `newline` character. Using the wrong input function results in a runtime error.
 
 ### Example
 
