@@ -1,7 +1,7 @@
 # Inputs and Outputs (Console)
 
 Lorem ipsum
-<-- rmb talk about escape characters, i believe most langs are almost the same for escape characters -->
+<!-- rmb talk about escape characters, i believe most langs are almost the same for escape characters -->
 
 ---
 
