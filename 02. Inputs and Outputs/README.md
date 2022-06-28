@@ -18,7 +18,34 @@ amet consectetur
 
 # Java
 
-joe mama
+While the console output does not require any library imports, user input does require `import java.util.Scanner;` .
+
+## Output
+
+To let the program print to the console, we can use the `System.out.print()` statement.
+
+To print the next statements in a new line, we can use `System.out.println()`. It is basically a `System.out.print([anything] + "\n")`
+
+## Input
+
+To accept input from the user, the norm is to make a `Scanner` object.
+
+Getting different datatypes of input also requires different functions of the `Scanner` class to be called.'
+
+Let `sc` be our Scanner object for these common input datatypes.
+
+| Function | Datatype / Input |
+| :---: | :---: |
+| `sc.next()` | The next *word* as a `String` |
+| `sc.nextLine()` | The next *line* as a `String` |
+| `sc.nextInt()` | `int` |
+| `sc.nextDouble()` | `double` |
+| `sc.next.charAt(n)` | The `char` at the *n*th index. |
+| `sc.nextBoolean()` | `boolean` |
+
+### Example
+
+The code example can be referred in [link].
 
 ---
 
@@ -32,27 +59,6 @@ To let the program print to the console, we can use the `std::cout` statement.
 
 There are a few ways to print in a new line, including using the `\n` escape character. Another way is to use `std::endl`.
 
-### Example 
-
-```c++
-#include <iostream>
-#include <string>
-
-int main(){
-    std::string phrase = "End program."
-    std::cout << "Hello World! ";
-    std::cout << "Hello Malaysia!" << std::endl;
-    std::cout << "Hello Penang!\n";
-    std::cout << "Goodbye! " << phrase;
-    return 0;
-    
-    // Output:
-    // Hello World! Hello Malaysia!
-    // Hello Penang!
-    // Goodbye! End program.
-}
-```
-
 ## Input
 
 To accept input from a user, we can use `std::cin`.
@@ -65,34 +71,7 @@ C++ also supports reading multiple inputs in one line. The values can be declare
 
 ### Example
 
-```c++
-#include <iostream>
-#include <string>
-
-int main(){
-    std::string phrase;
-    int x, y;
-
-    std::cout << "Enter 2 numbers seperated by space: ";
-    std::cin >> x >> y;                        // Example input: 4 5. The value 4 and 5 will be assigned to x and y respectively.
-    int sum = x + y;
-    std::cout << "The sum of the 2 numbers is: " << sum << std::endl;
-    std::cout << "\nEnter a sentence: ";
-    std::cin.ignore();                         // This line enables cin to ignore one line of input as the integer input previously
-                                               // contains a newline character which was not accepted in an integer input.
-    getline(std::cin, phrase);
-    std::cout << "The sentence you just entered is: " << phrase;
-    return 0;
-
-    // Sample Output:
-    // Enter 2 numbers seperated by space: 4 5
-    // The sum of the 2 numbers is: 9
-    //
-    // Enter a sentence: Lorem ipsum dolor
-    // The sentence you just entered is: Lorem ipsum dolor
-}
-```
-
+The code example can be referred in [link].
 
 ---
 
