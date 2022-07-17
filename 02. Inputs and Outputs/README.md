@@ -90,8 +90,6 @@ To let the program print to the console, we can use the `printf` statement.
 
 Format specifiers are used together with the `printf()` function to tell the compiler what type of data the variable is storing. It is basically a placeholder for the variable value.
 
-For example, to output the value of an int variable, you must use the format specifier `%d` or `%i` surrounded by double quotes, inside the `printf()` function
-
 The standard way to print a new line is using the escape character `\n`. There is no `endl` syntax in `C`.
 
 The format specifiers (initials `FS`) are as shown below:
