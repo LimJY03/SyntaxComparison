@@ -198,6 +198,7 @@ int sum = num1 + num2;
 std::cout << sum;    // 12
 ```
 Learn more about syntax for `C` at [w3schools.com/c](https://www.w3schools.com/c/c_intro.php)
+
 Learn more about syntax for `C++` at [w3schools.com/cpp](https://www.w3schools.com/cpp/default.asp).
 
 #### TL;DR :
