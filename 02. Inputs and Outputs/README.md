@@ -71,7 +71,7 @@ However, for `string`, `std::cin` only works for the first word as `whitespace` 
 
 Therefore we can use the `getline(cin, varName)` function to read an entire line. This function requires `#include <string>`.
 
-C++ also supports reading multiple inputs in one line. The values can be declared by using `whitespace` between inputs in the console and using the `>>` operator between variables in the program.
+`C++` also supports reading multiple inputs in one line. The values can be declared by using `whitespace` between inputs in the console and using the `>>` operator between variables in the program.
 
 > ### Useful Links
 > 
@@ -124,7 +124,7 @@ However, for `string`, `scanf` and `scanf_s` only works for the first word as `w
 
 Therefore we can use `%[^\n]s` as the FS to read an entire line. The buffer size will normally be the size of the string by using `sizeof(yourString)`.
 
-C++ also supports reading multiple inputs in one line. The values can be declared, for example `(%d %d, x, y)` will read 2 integer values seperated by a space and assign it into `x` and `y` respectively.
+`C` also supports reading multiple inputs in one line. The values can be declared, for example `(%d %d, x, y)` will read 2 integer values seperated by a space and assign it into `x` and `y` respectively.
 
 > ### Useful Links
 > 
