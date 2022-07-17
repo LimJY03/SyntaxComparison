@@ -17,7 +17,7 @@ Comments are used to explain the code we write. At the same time, it enhances co
 | Python | `#` |
 | JavaScript | `//` |
 | Java | `//` |
-| C++ | `//` |
+| C/C++ | `//` |
 
 The comment syntax shown above are **single-line comment** syntax, it will only *comment* out that one line. If we want to comment multiple lines (or create a comment block), we will use **multi-line comment** syntax.
 
@@ -30,7 +30,7 @@ Comment Syntax Sample for `Python`:
 # so we need to insert # for each of the lines.
 ```
 
-Comment Syntax Sample for `JavaScript`:
+Comment Syntax Sample for `JavaScript`, `Java`, `C` and `C++`:
 
 ```js
 // This is a single-line comment
@@ -40,25 +40,6 @@ Comment Syntax Sample for `JavaScript`:
    comment syntax are comments */
 ```
 
-Comment Syntax Sample for `Java` (similar to `JavaScript`):
-
-```java
-// This is a single-line comment
-
-/* This is a multi-line comment
-   all texts between the open and close 
-   comment syntax are comments */
-```
-
-Comment Syntax Sample for `C++` (similar to `Java` and `Javascript`):
-
-```c++
-// This is a single-line comment
-
-/* This is a multi-line comment
-   all texts between the open and close 
-   comment syntax are comments */
-```
 ---
 
 ## **02. Indentation**
@@ -109,13 +90,23 @@ public void my_function(int num) {
 ```
 The code above represents a non-static function, in order to access to a non static function in `Java`, a object respective to its class has to be created.
 
-### **C++**
+### **C/C++**
 
 Indentations are normally used (not a must) to show a code block.
 
-```C++
+```C
+// C
 void my_function(int num) {
+    printf("This is a function"\n);
+    printf("that receives a number\n");
+    printf("and prints it out\n");
+    printf("%d", num);
+}
+```
 
+```C++
+// C++
+void my_function(int num) {
     std::cout << "This is a function" << std::endl;
     std::cout << "that receives a number" << std::endl;
     std::cout << "and prints it out" << std::endl;
@@ -130,7 +121,7 @@ void my_function(int num) {
 | Python | For code blocks |
 | JavaScript | For readability. `{}` for code blocks |
 | Java | For readability. `{}` for code blocks |
-| C++ | For readability. `{}` for code blocks |
+| C/C++ | For readability. `{}` for code blocks |
 
 ---
 
@@ -183,11 +174,22 @@ System.out.println(sum);    // 12
 
 Learn more about syntax for `Java` at [w3schools.com/java](https://www.w3schools.com/java/java_syntax.asp).
 
-### **C++**
+### **C/C++**
 
-In `C++`, the statement syntax has a rule similar to `Java`: all statements must end with a semicolon `;`.
+In `C` and `C++`, the statement syntax has a rule similar to `Java`: all statements must end with a semicolon `;`.
+
+```C
+//C
+int num1 = 5;
+int num2 = 7;
+
+int sum = num1 + num2;
+
+printf("%d", sum);    // 12
+```
 
 ```c++
+//C++
 int num1 = 5;
 int num2 = 7;
 
@@ -205,6 +207,6 @@ Learn more about syntax for `C++` at [w3schools.com/cpp](https://www.w3schools.c
 | Python | Not required |
 | JavaScript | Optional |
 | Java | End of all statements |
-| C++ | End of all statements |
+| C/C++ | End of all statements |
 
 ---
