@@ -98,7 +98,7 @@ The format specifiers (initials `FS`) are as shown below:
 | :---: | :---: |
 | `%d` or `%i` | int |
 | `%f` | float |
-| `%lf%` | double |
+| `%lf` | double |
 | `%c` | char |
 | `%s` | string (char[]) |
 
