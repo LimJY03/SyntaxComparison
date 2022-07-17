@@ -148,6 +148,31 @@ const double PI = 3.141592653;
 > * Learn More: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_data_types.asp)
 > * Code Example: [variables_and_datatypes.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.cpp)
 
+---
+
+## C
+
+The declaration of variables in `C` is similar in style to `C++`, with some syntax differences. The keyword `const` is used to declare a constant.
+
+```c++
+int numbers = 5;
+double decimals = 3.7;               // float can be used instead of decimals too.
+char alphabet = 'C';                 // '' can only be used for strings with only one character.
+char texts[] = "Some string";        // no strings, char arrays are treated as strings
+bool logic = true;                   // The other boolean value is false.
+
+const double PI = 3.141592653;
+```
+
+**IMPORTANT:** For `C`, if you need to use *bool*, you need to include its header file with `#include <stdbool.h>`.
+
+*Side note:* The default output for boolean values in `C` is `0` or `1`. To output `true` or `false`, we can use the ternary operator. The details can be seen in the sample code.
+
+> ### Useful Links:
+> 
+> * Learn More: [w3schools.com/c](https://www.w3schools.com/c/c_data_types.php)
+> * Code Example: [variables_and_datatypes.c](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.c)
+
 #### TL;DR:
 
 | Language | Datatypes | Constant | Side notes |
@@ -156,5 +181,6 @@ const double PI = 3.141592653;
 | JavaScript | Not required | `const` | Usage of `var` and `let`, refer to top. |
 | Java | Required | `final` | `String`, `boolean` |
 | C++ | Required | `const` | `std::string`, `bool` |
+| C | Required | `const` | `char x[]`, `bool` header |
 
 ---
