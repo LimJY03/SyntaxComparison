@@ -207,8 +207,8 @@ To get the *length* of an array, you have to divide the size of the array by the
 int myNumbers[5] = {10, 20, 30, 40, 50};
 int getSize = sizeof(myNumbers);
 int getArrayLength = sizeof(myNumbers) / sizeof(int);
-printf("%d\n", getSize);                                  // prints 20 (int uses 4 bytes)
-printf("%d", getArrayLength);                             // prints 5
+printf("%d\n", getSize);                               // prints 20 (int uses 4 bytes)
+printf("%d", getArrayLength);                          // prints 5
 ```
 
 ### Note about strings and char
