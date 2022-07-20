@@ -179,7 +179,7 @@ Learn more about syntax for `Java` at [w3schools.com/java](https://www.w3schools
 In `C` and `C++`, the statement syntax has a rule similar to `Java`: all statements must end with a semicolon `;`.
 
 ```C
-//C
+// C
 int num1 = 5;
 int num2 = 7;
 
@@ -189,7 +189,7 @@ printf("%d", sum);    // 12
 ```
 
 ```c++
-//C++
+// C++
 int num1 = 5;
 int num2 = 7;
 
