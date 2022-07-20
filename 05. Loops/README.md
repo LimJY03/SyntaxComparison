@@ -543,13 +543,13 @@ The syntax is similar to `java` and `javascript`.
 
 ```c
 while (i < 10) {
-  printf("The number is %d", i);
-  i++;
+    printf("The number is %d", i);
+    i++;
 }
 
 do {
-  printf("The number is %d", i);
-  i++;
+    printf("The number is %d", i);
+    i++;
 } while (i < 10);
 ```
 
@@ -562,10 +562,10 @@ The `continue` statement breaks one iteration and continues with the next iterat
 ### **Example**
 ```c
 for (int i = 0; i < 5; i++) {
-  if (i == 2) { 
-    break; //or continue;
-  }
-  printf("The number is %d", i);
+    if (i == 2) { 
+        break; //or continue;
+    }
+    printf("The number is %d", i);
 }
 ```
 
