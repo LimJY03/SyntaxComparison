@@ -24,8 +24,8 @@ int io() { //main
 	
     printf("\nEnter a sentence less than 50 characters: ");
     scanf_s(" %[^\n]s", &phrase2, sizeof(phrase2));
-	// [^\n] means that the input will be read until a newline is encountered. The sizeof() is required for string inputs.
-	// Do note the space before &[^\n]s. This is to skip the newline character created in the int input previously.
+    // [^\n] means that the input will be read until a newline is encountered. The sizeof() is required for string inputs.
+    // Do note the space before &[^\n]s. This is to skip the newline character created in the int input previously.
     printf("The sentence you just entered is : %s" , phrase2);
 
     return 0;
