@@ -86,7 +86,7 @@ To use input and output statements, we have to include the `<stdio.h>` header fi
 
 ## Output
 
-To let the program print to the console, we can use the `printf` statement.
+To let the program print to the console, we can use the `printf("outputstring", var)` statement.
 
 Format specifiers are used together with the `printf()` function to tell the compiler what type of data the variable is storing. It is basically a placeholder for the variable value.
 
@@ -108,11 +108,12 @@ The format specifiers (initials `FS`) are as shown below:
 double myNum = 5.13;
 char myLetter = 'D';
 printf("My number is %.2lf and my letter is %c.", myNum, myLetter);
-//                   ^ myNum will        ^ myLetter will
-//                     be outputted here   be outputted here
+
 // Output:
 // My number is 5.13 and my letter is D.
 ```
+
+The values of the variables will be substituted into the format specifiers according to the order in the output string.
 
 To format decimal places, use `%.xf` or `%.xlf`, where `x` is the number of decimal places. If this is not specified, the default output will always output 6 decimal places.
 
