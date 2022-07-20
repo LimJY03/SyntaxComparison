@@ -13,7 +13,7 @@ int io() { //main
     // Hello Penang!
     // Goodbye! End program.
 
-    //Input Example
+    // Input Example
     char phrase2[50];
     int x, y;
 
