@@ -184,7 +184,7 @@ The array size is fixed once it is initialized.
 
 ```c
 int myNum[3] = {10, 20, 30};
-printf("%d", myNum[0]);                                //prints 10
+printf("%d", myNum[0]);                                // prints 10
 ```
 
 The array size can also be omitted if the elements are immediately initialized. The array will be as big as the number of elements inserted into it.
