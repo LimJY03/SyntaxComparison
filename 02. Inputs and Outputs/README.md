@@ -134,6 +134,40 @@ Therefore we can use `%[^\n]s` as the FS to read an entire line. The buffer size
 
 ---
 
+# C#
+
+User input and console output does not require header files. However, normally `using System;` is included in the top of the program.
+It means that we can use classes from the System namespace.
+
+If you omit the `using System;` line, you would have to write `System.Console.WriteLine();` to print/output text.
+
+## Output
+
+To let the program print to the console, we can use the `Console.Write()` statement.
+
+To print the next statements in a new line, we can use `Console.WriteLine()`. It is basically a `Console.Write([anything] + "\n")`
+
+## Input
+
+To accept input from the user, we can use `datatype var = Console.ReadLine();`.
+
+`C#` only supports reading the entire line as a string. In order to assign values according to their respective datatypes, `Convert` functions are used:
+
+| `Convert._____(Console.ReadLine());` | Datatype |
+| :---: | :---: |
+| `ToDouble` | double |
+| `ToInt32` | int |
+| `ToBoolean` | bool |
+| `ToInt64` | long |
+| `ToChar` | first character to char |
+
+> ### Useful Links
+> 
+> * Learn More: [w3schools.com/cs - input](https://www.w3schools.com/cs/cs_user_input.php) and [w3schools.com/cs - output](https://www.w3schools.com/cs/cs_output.php)
+> * Code Example: [input_and_output.cs](https://github.com/LimJY03/SyntaxComparison/blob/main/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.cs)
+
+---
+
 #### TL;DR:
 
 | Language | Input | Output |
@@ -143,3 +177,4 @@ Therefore we can use `%[^\n]s` as the FS to read an entire line. The buffer size
 | Java | using `Scanner` object | `System.out.print/ln()` |
 | C++ | `std::cin`, `getline()` | `std::cout` |
 | C | `scanf()`, `scanf_s()` | `printf` |
+| C# | `Console.ReadLine()` | `Console.Write/Line()` |
