@@ -168,7 +168,64 @@ Let `vect` be our vector name.
 | `vect.empty()` | Returns `true` if vect is empty |
 
 ---
+# C
 
+Arrays can be declared through `datatype array[size];`.
+
+There is no support for dynamic libraries in base C or its standard libraries.
+
+## Arrays
+
+The first element in an array is `[0]`. To access an element in an array, you can refer to its index number in square brackets.
+
+The array size is fixed once it is initialized.
+
+### Example
+
+```c
+int myNum[3] = {10, 20, 30};
+printf("%d", myNum[0]);                                // prints 10
+```
+
+The array size can also be omitted if the elements are immediately initialized. The array will be as big as the number of elements inserted into it.
+
+### Example
+
+```c
+int myNum[] = {10, 20, 30};                            // size of array is always 3
+```
+
+### Getting array size / length
+
+You can use the `sizeof()` function to get the size of an array *in bytes*.
+
+To get the *length* of an array, you have to divide the size of the array by the size of the data type it contains.
+
+### Example
+
+```c
+int myNumbers[5] = {10, 20, 30, 40, 50};
+int getSize = sizeof(myNumbers);
+int getArrayLength = sizeof(myNumbers) / sizeof(int);
+printf("%d\n", getSize);                               // prints 20 (int uses 4 bytes)
+printf("%d", getArrayLength);                          // prints 5
+```
+
+### Note about strings and char
+
+Strings are treated as character arrays in C.
+
+An *array of strings* are two dimensional char arrays in C as there is no `string` datatype.
+
+### Example
+
+```c
+char cstring[] = "This is a string.";
+char stringArray[2][10] = {"String 1", "String 2"};
+//num of strings ^ | ^ max length of each string
+```
+
+---
 #### TL;DR:
 
 | Language | Standard Array | Dynamic Collection |
@@ -177,3 +234,4 @@ Let `vect` be our vector name.
 | JavaScript |  |  |
 | Java | `datatype[] array` | `ArrayList<datatype> list` |
 | C++ | `datatype array[]` | `std::vector<datatype> vect` |
+| C | `datatype array[]` | Not supported in stdlibs. |

@@ -71,12 +71,66 @@ However, for `string`, `std::cin` only works for the first word as `whitespace` 
 
 Therefore we can use the `getline(cin, varName)` function to read an entire line. This function requires `#include <string>`.
 
-C++ also supports reading multiple inputs in one line. The values can be declared by using `whitespace` between inputs in the console and using the `>>` operator between variables in the program.
+`C++` also supports reading multiple inputs in one line. The values can be declared by using `whitespace` between inputs in the console and using the `>>` operator between variables in the program.
 
 > ### Useful Links
 > 
 > * Learn More: [w3schools.com/cpp - input](https://www.w3schools.com/cpp/cpp_user_input.asp) and [w3schools.com/cpp - output](https://www.w3schools.com/cpp/cpp_output.asp)
 > * Code Example: [input_and_output.cpp](https://github.com/LimJY03/SyntaxComparison/blob/main/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.cpp)
+
+---
+
+# C
+
+To use input and output statements, we have to include the `<stdio.h>` header file.
+
+## Output
+
+To let the program print to the console, we can use the `printf("outputstring", var)` statement.
+
+Format specifiers are used together with the `printf()` function to tell the compiler what type of data the variable is storing. It is basically a placeholder for the variable value.
+
+The standard way to print a new line is using the escape character `\n`. There is no `endl` syntax in `C`.
+
+The format specifiers (initials `FS`) are as shown below:
+
+| FS | Datatype |
+| :---: | :---: |
+| `%d` or `%i` | int |
+| `%f` | float |
+| `%lf` | double |
+| `%c` | char |
+| `%s` | string (char[]) |
+
+### Example
+
+```C
+double myNum = 5.13;
+char myLetter = 'D';
+printf("My number is %.2lf and my letter is %c.", myNum, myLetter);
+
+// Output:
+// My number is 5.13 and my letter is D.
+```
+
+The values of the variables will be substituted into the format specifiers according to the order in the output string.
+
+To format decimal places, use `%.xf` or `%.xlf`, where `x` is the number of decimal places. If this is not specified, the default output will always output 6 decimal places.
+
+## Input
+
+To accept input from a user, we can use `scanf("FS", var)` or `scanf_s("FS", var)` (recommended in Visual Studio in contrast to `scanf` as it has better security features).
+
+However, for `string`, `scanf` and `scanf_s` only works for the first word as `whitespace` is a delimiter, and `scanf_s` requires another buffer size parameter.
+
+Therefore we can use `%[^\n]s` as the FS to read an entire line. The buffer size will normally be the size of the string by using `sizeof(yourString)`.
+
+`C` also supports reading multiple inputs in one line. The values can be declared, for example `(%d %d, x, y)` will read 2 integer values seperated by a space and assign it into `x` and `y` respectively.
+
+> ### Useful Links
+> 
+> * Learn More: [w3schools.com/c - input](https://www.w3schools.com/c/c_user_input.php) and [w3schools.com/c - output](https://www.w3schools.com/c/c_output.php)
+> * Code Example: [input_and_output.c](https://github.com/LimJY03/SyntaxComparison/blob/main/02.%20Inputs%20and%20Outputs/Sample%20Code/input_and_output.c)
 
 ---
 
@@ -88,3 +142,4 @@ C++ also supports reading multiple inputs in one line. The values can be declare
 | JavaScript |  | `console.log()` |
 | Java | using `Scanner` object | `System.out.print/ln()` |
 | C++ | `std::cin`, `getline()` | `std::cout` |
+| C | `scanf()`, `scanf_s()` | `printf` |

@@ -214,7 +214,7 @@ for (let x in dog) {
 
 ## Array.forEach()
 
-Javascript array has a ```forEach()``` that calls a function (a callback function) once for each array element.
+Javascript array has a `forEach()` that calls a function (a callback function) once for each array element.
 
 The function takes 3 arguments: 
 
@@ -324,11 +324,11 @@ for (let i = 0; i < 10; i++) {
 
 # Java
 
-```for``` - loops through a block of code a number of times
+`for` - loops through a block of code a number of times
 
-```while``` - loops through a block of code while a specified condition is true
+`while` - loops through a block of code while a specified condition is true
 
-```do/ while``` - also loops through a block of code while a specified condition is true  
+`do/ while` - also loops through a block of code while a specified condition is true  
 
 <br>
 
@@ -408,13 +408,13 @@ for (int i = 0; i < 5; i++) {
 
 # C++
 
-```for``` - loops through a block of code a number of times
+`for` - loops through a block of code a number of times
 
-```for_each```- loops through a range of elements and apply an algoritm to it
+`for_each`- loops through a range of elements and apply an algorithm to it
 
-```while``` - loops through a block of code while a specified condition is true
+`while` - loops through a block of code while a specified condition is true
 
-```do/ while``` - also loops through a block of code while a specified condition is true  
+`do/ while` - also loops through a block of code while a specified condition is true  
 
 <br>
 
@@ -517,14 +517,69 @@ for (int i = 0; i < 5; i++) {
 
 ---
 
+# C
+
+`for` - loops through a block of code a number of times
+
+`while` - loops through a block of code while a specified condition is true
+
+`do/ while` - also loops through a block of code while a specified condition is true  
+
+<br>
+
+A normal  `for` loop in C is similar in Java and Javascript:
+    
+> ```c
+> for (initial; condition; update statement) {
+>  // code block to be executed
+> }
+> ```
+
+## **While and Do-while Loops**
+
+The syntax is similar to `java` and `javascript`.
+
+### **Example**
+
+```c
+while (i < 10) {
+    printf("The number is %d", i);
+    i++;
+}
+
+do {
+    printf("The number is %d", i);
+    i++;
+} while (i < 10);
+```
+
+## **Break and Continue**
+
+Similar across most languages:
+The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+The `continue` statement breaks one iteration and continues with the next iteration in the loop.
+
+### **Example**
+```c
+for (int i = 0; i < 5; i++) {
+    if (i == 2) { 
+        break; //or continue;
+    }
+    printf("The number is %d", i);
+}
+```
+
+---
+
 #### TL;DR:
 
 | Language | `while` and `do-while` | `for` Syntax | `foreach` Support |
 | :---: | :---: | :---: | :---: | 
 | Python | `while` only | `for x in range` | No |
-| JavaScript | `while` and `do-while` | `for (i; c; u)` `for..in` `for..of` | Yes |
+| JavaScript | `while` and `do-while` | `for (i; c; u)` `for..in` `for..of` | `array.forEach()` |
 | Java | `while` and `do-while` | `for (i; c; u)` and `for(var:range)` | No |
-| C++ | `while` and `do-while` | `for (i; c; u)` and `for(var:range)`| Yes |
+| C++ | `while` and `do-while` | `for (i; c; u)` and `for(var:range)`| `for_each()` |
+| C | `while` and `do-while` | `for (i; c; u)` only | No |
 
 All languages above has `break` and `continue` for the same usage.
 
