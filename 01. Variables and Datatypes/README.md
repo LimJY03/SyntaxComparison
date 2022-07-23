@@ -173,6 +173,31 @@ const double PI = 3.141592653;
 > * Learn More: [w3schools.com/c](https://www.w3schools.com/c/c_data_types.php)
 > * Code Example: [variables_and_datatypes.c](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.c)
 
+---
+
+## C#
+
+In `C#`, we will need to declare the variables and constants before assigning values to them, by using their datatype. We will use the it to specify the datatype of variables and constants, and the keyword `const` is used to declare a constant.
+
+```c#
+int numbers = 5;
+double decimals = 3.7;          // float can be used instead of decimals.
+char alphabet = 'C';            // '' can only be used for strings with only one character.
+string texts = "Some string";   // "" must be used for strings with more than one character.
+bool logic = true;              // The other boolean value is false.
+
+const double PI = 3.141592653;
+```
+
+In contrast with Java, `string` is spelled with a small 's', and `bool` is spelled similarly to `C++`.
+
+> ### Useful Links:
+> 
+> * Learn More: [w3schools.com/cs](https://www.w3schools.com/cs/cs_variables.php)
+> * Code Example: [variables_and_datatypes.cs](https://github.com/LimJY03/SyntaxComparison/blob/main/01.%20Variables%20and%20Datatypes/Sample%20Codes/variables_and_datatypes.cs)
+
+---
+
 #### TL;DR:
 
 | Language | Datatypes | Constant | Side notes |
@@ -182,5 +207,6 @@ const double PI = 3.141592653;
 | Java | Required | `final` | `String`, `boolean` |
 | C++ | Required | `const` | `std::string`, `bool` |
 | C | Required | `const` | `char x[]`, `bool` header |
+| C# | Required | `const` | `string`, `bool` |
 
 ---
