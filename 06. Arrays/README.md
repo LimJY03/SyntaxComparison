@@ -226,6 +226,64 @@ char stringArray[2][10] = {"String 1", "String 2"};
 ```
 
 ---
+
+# C#
+
+There are a few way to declare `C#` arrays, one of it being `datatype[] array;`.
+
+ArrayLists can be declared through `List<datatype> listName;`.
+
+## Arrays
+
+The first element in an array is `[0]`. To access an element in an array, you can refer to its index number in square brackets.
+
+The array size is fixed once it is initialized.
+
+### Example
+
+```c#
+int[] myNum = {10, 20, 30};                      // declares array with 3 elements
+Console.WriteLine(myNum[0]);                     // prints 10
+
+int[] myNum2 = new int[5];                       // declares empty array with size 5
+```
+
+### Getting array length
+
+You can use `array.Length` to get the length of an array.
+
+### Example
+
+```c#
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Console.WriteLine(cars.Length);                  // Outputs 4
+```
+
+## Lists
+
+The List is a resizable array for `C#`.
+
+### List declaration Example
+
+```c#
+List<string> cars = new List<string>();
+```
+
+### Table of common functions for `List`
+
+Let `cars` be our List name.
+
+| Function | Description |
+| :---: | :---: |
+| `cars[index]` | Access element in index |
+| `cars.Add(element)` | Insert element at the end |
+| `cars.Insert(index, element)` | Inserts element in index |
+| `cars.RemoveAt(index)` | Delete element in index |
+| `cars.Clear()` | Delete all elements |
+| `cars.Count()` | Returns *length* of the list |
+| `cars.Sort()` | Sorts the list |
+
+---
 #### TL;DR:
 
 | Language | Standard Array | Dynamic Collection |
@@ -235,3 +293,4 @@ char stringArray[2][10] = {"String 1", "String 2"};
 | Java | `datatype[] array` | `ArrayList<datatype> list` |
 | C++ | `datatype array[]` | `std::vector<datatype> vect` |
 | C | `datatype array[]` | Not supported in stdlibs. |
+| C# | `datatype[] array` | `List<datatype> list` |
