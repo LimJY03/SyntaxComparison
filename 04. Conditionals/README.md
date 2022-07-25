@@ -197,6 +197,50 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 
 ---
 
+## C#
+
+In `C#`, we use `if` and `else if` to specify each condition and the respective segment that will execute if that condition is fulfilled. Similar to most programming language, the segment under `else` will execute if all the conditions specified are not satisfied.
+
+```c#
+if ((num1 >= num2) && (num1 >= num3)) {
+    Console.WriteLine(num1);
+}
+else if ((num2 >= num1) && (num2 >= num3)) {
+    Console.WriteLine(num2);
+}
+else {
+    Console.WriteLine(num3);
+}
+```
+
+In `C#`, we use a curly brackets `{}` after the condition is defined. All segments that will be executed if that condition is `True` **MUST** be written inside the brackets.
+
+Like most programming languages, `C#` has a `switch` statement.
+
+```c#
+switch (choice) {
+    case 'A':
+        Console.WriteLine("Apple Pie");
+        break;
+    case 'B':
+        Console.WriteLine("Blueberry Pudding");
+        break;
+    case 'C':
+    case 'D':
+        Console.WriteLine("Milk Tea");
+        break;
+    default:
+        Console.WriteLine("Invalid Choice");
+}
+```
+
+> ### Useful Links:
+> 
+> * Learn More: [w3schools.com/cs](https://www.w3schools.com/cs/cs_conditions.php)
+> * Code Example: [conditionals.cs](https://github.com/LimJY03/SyntaxComparison/blob/main/04.%20Conditionals/Sample%20Codes/conditionals.cs)
+
+---
+
 #### TL;DR:
 
 | Language | `if` Syntax | `switch` Syntax |
@@ -205,5 +249,6 @@ Since `case 'C'` does not have a `break` statement under it, it will proceed dow
 | JavaScript | `if, else if, else` | `switch..case..default` |
 | Java | `if, else if, else` | `switch..case..default` |
 | C/C++ | `if, else if, else` | `switch..case..default` |
+| C# | `if, else if, else` | `switch..case..default` |
 
 ---
