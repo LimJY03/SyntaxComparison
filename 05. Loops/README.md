@@ -111,7 +111,7 @@ Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
 The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
-The ```break``` and ```continue``` do the same in ```while``` loop as what they do in ```for``` loop: 
+The `break` and `continue` do the same in `while` loop as what they do in `for` loop: 
 
 ### Example
 
