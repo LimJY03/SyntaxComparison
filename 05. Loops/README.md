@@ -183,7 +183,7 @@ As mentioned before in [Block Scope for Javascript](https://github.com/LimJY03/S
   console.log(i)  // prints 10
   ```
 
-* Here's an example of using ```let``` in `for` loop:
+* Here's an example of using `let` in `for` loop:
 
   ```js
   let i = 5;
@@ -208,7 +208,12 @@ The general syntax of `for...in` loop goes as below:
 ### Example
 
 ```js
-const dog = {gender:"Male", breed:"Golden Retriever", age:5};
+const dog = {
+    gender: "Male", 
+    breed: "Golden Retriever", 
+    age: 5
+};
+
 let text = "";
 
 for (let x in dog) {
