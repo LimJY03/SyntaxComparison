@@ -84,7 +84,7 @@ for x in [0, 1, 2]:
 
 ## While Loops
 
-The ```while``` loop can be executed as long the condition is ```true```
+The `while` loop can be executed as long the condition is `true`
 
 ```py
 i = 1
@@ -93,7 +93,7 @@ while i < 6: # As long as the value of i is smaller than 6
     i += 1
 ```
   
-The ```else``` statement is used to execute the code block when the condition is no longer met.
+The `else` statement is used to execute the code block when the condition is no longer met.
 
 ```py
 i = 1
