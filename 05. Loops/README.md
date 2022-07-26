@@ -4,12 +4,13 @@ Loops are handy, if you want to run the same code over and over again, each time
 
 ---
 
-# **Python**
+# Python
 
-## **For Loops**
-In Python, ```for``` loop is used to iterate over a sequence (list, tuple, dictionary, set, string)  \
+## For Loops
 
-```for``` loop does not require an indexing variable to set beforehand in Python.
+In Python, `for` loop is used to iterate over a sequence (list, tuple, dictionary, set, string)  \
+
+`for` loop does not require an indexing variable to set beforehand in Python.
 
 ```py
 fruits = ["apple", "banana", "cherry"]
@@ -17,38 +18,44 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
     print(x)
 ```
-### **Looping through a String**
+### Looping through a String
+
 ```py
 for x in "banana":
     print(x)
 ```
 
-## **range()**
-```range()``` returns a sequence of numbers, starting from 0 by default, and increased by 1 by default and ends at a specified number.
+## range()
 
-### **Example**
+`range()` returns a sequence of numbers, starting from 0 by default, and increased by 1 by default and ends at a specified number.
+
+### Example
+
 ```py
 for x in range(6):
     print(x)
 ```
 Note that the loop stops before specified end value. For instance, the example above prints the value from 0 to 5 instead of 6.
 
-### **Example**
+### Example
+
 ```py
 # using starting parameter
 for x in range(2, 6):
     print(x)
 ```
 
-### **Example**
+### Example
+
 ```py
 # Specifying increment value
 for x in range(2, 30, 3):
     print(x)
 ```
 
-## **Else In For Loop**
-Use ```else``` in a ```for``` loop to execute the code block after the loop is finished:
+## Else In For Loop
+
+Use `else` in a `for` loop to execute the code block after the loop is finished:
 
 ```py 
 for x in range(6):
@@ -56,7 +63,7 @@ for x in range(6):
 else:
     print("It's done!")
 ```
->Note that the ```else``` block will not be executed if the loop is stopped by a ```break``` statement.
+>Note that the `else` block will not be executed if the loop is stopped by a `break` statement.
 
 ```py
 for x in range(6):
@@ -66,15 +73,17 @@ else:
     print("it's done!") # This line will not be printed out
 ```
 
-## **pass**
-Use ```pass``` statement to pass through loops with no content in it to avoid errors.
+## pass
+
+Use `pass` statement to pass through loops with no content in it to avoid errors.
 
 ```py
 for x in [0, 1, 2]:
     pass
 ```
 
-## **While Loops**
+## While Loops
+
 The ```while``` loop can be executed as long the condition is ```true```
 
 ```py
@@ -96,7 +105,7 @@ else:
 ```
   
   
-## **Break and Continue**
+## Break and Continue
 
 Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
@@ -293,7 +302,7 @@ do {
 }
 while (i < 10);
 ```
-## **Break and Continue**
+## Break and Continue
 
 Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
@@ -340,7 +349,7 @@ A normal  `for` loop in `Java` is similar to `Javascript` and `C++`:
 > }
 > ```
 
-## **For loops with a range**
+## For loops with a range
 
 It executes a for loop over over all elements in an array
 
@@ -358,7 +367,7 @@ The arguments taken:
 |range_expression|array or collection(eg. ArrayList)|
 |loop_statement|The body of the loop|
 
-### **Example**
+### Example
 ```java
 //looping through elements in an array
 int[6] v = {0, 1, 2, 3, 4, 5};
@@ -371,11 +380,11 @@ System.out.println("The sum is: " + sum);  //prints The sum is: 15
 ```
 
 
-## **While and Do-while Loops**
+## While and Do-while Loops
 
 The syntax is similar to `C++` and `javascript`.
 
-### **Example**
+### Example
 
 ```java
 while (i < 10) {
@@ -389,13 +398,13 @@ do {
 } while (i < 10);
 ```
 
-## **Break and Continue**
+## Break and Continue
 
 Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
 The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
-### **Example**
+### Example
 ```java
 for (int i = 0; i < 5; i++) {
     if (i == 2) { 
@@ -426,7 +435,7 @@ A normal  `for` loop in C++ is similar in Java and Javascript:
 > }
 > ```
 
-## **For loops with a range**
+## For loops with a range
 
 It executes a for loop over a range. Used as a more readable equivalent to the traditional for loop operating over a range of values, such as all elements in a container.
 
@@ -444,7 +453,7 @@ The arguments taken:
 |range_expression|Any expression that represents a suitable sequence or a braced-init-list (eg. arrays)|
 |loop_statement|The body of the loop|
 
-### **Example**
+### Example
 ```c++
 //looping through elements in an array
 std::vector<int> v = {0, 1, 2, 3, 4, 5};
@@ -461,7 +470,7 @@ for (int n : a) {
 std::cout << std::endl;
 ```
 
-## **for_each()**
+## for_each()
 
 C++ array has a `for_each()` that calls a function (a callback function) once for each array element.
 
@@ -481,11 +490,11 @@ void printx2(int a) {
     for_each(arr1.begin(), arr1.end(), printx2);
 ```
 
-## **While and Do-while Loops**
+## While and Do-while Loops
 
 The syntax is similar to `java` and `javascript`.
 
-### **Example**
+### Example
 
 ```c++
 while (i < 10) {
@@ -499,13 +508,13 @@ do {
 } while (i < 10);
 ```
 
-## **Break and Continue**
+## Break and Continue
 
 Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
 The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
-### **Example**
+### Example
 ```c++
 for (int i = 0; i < 5; i++) {
     if (i == 2) { 
@@ -535,11 +544,11 @@ A normal  `for` loop in C is similar in Java and Javascript:
 > }
 > ```
 
-## **While and Do-while Loops**
+## While and Do-while Loops
 
 The syntax is similar to `java` and `javascript`.
 
-### **Example**
+### Example
 
 ```c
 while (i < 10) {
@@ -553,13 +562,13 @@ do {
 } while (i < 10);
 ```
 
-## **Break and Continue**
+## Break and Continue
 
 Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
 The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
-### **Example**
+### Example
 ```c
 for (int i = 0; i < 5; i++) {
     if (i == 2) { 
@@ -591,7 +600,7 @@ A normal  `for` loop in `C#` is similar to `Java` and `C++`:
 > }
 > ```
 
-## **Foreach loop**
+## Foreach loop
 
 It executes a for loop over over all elements in an array
 
@@ -609,7 +618,7 @@ The arguments taken:
 | counter | self declared name of variable |
 | arrayName | name of array to be looped |
 
-### **Example**
+### Example
 ```c#
 //looping through elements in an array
 int[6] v = {0, 1, 2, 3, 4, 5};
@@ -621,11 +630,11 @@ foreach (int i in v) {
 Console.WriteLine("The sum is: " + sum);  //prints The sum is: 15
 ```
 
-## **While and Do-while Loops**
+## While and Do-while Loops
 
 The syntax is similar to `C++` and `java`.
 
-### **Example**
+### Example
 
 ```c#
 while (i < 10) {
@@ -639,13 +648,13 @@ do {
 } while (i < 10);
 ```
 
-## **Break and Continue**
+## Break and Continue
 
 Similar across most languages:
 The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
 The `continue` statement breaks one iteration and continues with the next iteration in the loop.
 
-### **Example**
+### Example
 ```c#
 for (int i = 0; i < 5; i++) {
     if (i == 2) { 
