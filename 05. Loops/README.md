@@ -151,7 +151,7 @@ The general syntax of `for` loop goes as below:
     
 > ```js
 > for (statement 1; statement 2; statement 3) {
->   // code block to be executed
+>     // code block to be executed
 > }
 > ```
 
