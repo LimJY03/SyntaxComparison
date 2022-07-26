@@ -7,7 +7,25 @@ Lorem ipsum
 
 # Python
 
-dolor sit
+Getting inputs from users and printing outputs to console in Python is very straight forward.
+
+## Input
+
+To accept input from the user, we can use `input()`. The argument of this function will be the prompt.
+
+`input()` will return the input of any data type from the user.
+
+## Output
+
+To let the program print to the console, simply use `print()`. The argument of this function will be printed to the console. 
+
+> **Note**
+> <br>By default, the `print()` function will end the line, meaning that 2 print function stacked together will print the output to 2 lines.
+
+To print multiple items into the same line, there are multiple methods to achieve it:
+
+* `print(item1, item2, item3)` will print `item1` followed by `item2` followed by `item3`. By default, they are separated by a whitespace unless the `sep` argument is passed in.
+* Using `end=' '` argument in the `print()` function will set the print statement to end with a whitespace instead of a newline (`\n`).
 
 ---
 
@@ -19,21 +37,15 @@ amet consectetur
 
 # Java
 
-While the console output does not require any library imports, user input does require `import java.util.Scanner;` .
-
-## Output
-
-To let the program print to the console, we can use the `System.out.print()` statement.
-
-To print the next statements in a new line, we can use `System.out.println()`. It is basically a `System.out.print([anything] + "\n")`
+While the console output does not require any library imports, user input does require `import java.util.Scanner;`.
 
 ## Input
 
 To accept input from the user, the norm is to make a `Scanner` object.
 
-Getting different datatypes of input also requires different functions of the `Scanner` class to be called.'
+Getting different datatypes of input also requires different functions of the `Scanner` class to be called.
 
-Let `sc` be our Scanner object for these common input datatypes.
+Let `sc` be our `Scanner` object for these common input datatypes.
 
 | Function | Datatype / Input |
 | :---: | :---: |
@@ -44,7 +56,14 @@ Let `sc` be our Scanner object for these common input datatypes.
 | `sc.next.charAt(n)` | The `char` at the *n*th index. |
 | `sc.nextBoolean()` | `boolean` |
 
-Note that other than `nextLine()`, the other inputs are delimited by `whitespace` or `newline` character. Using the wrong input function results in a runtime error.
+> **Note**
+> <br>Other than `nextLine()`, the other inputs are delimited by `whitespace` or `newline` character. Using the wrong input function results in a runtime error.
+
+## Output
+
+To let the program print to the console, we can use the `System.out.print()` statement.
+
+To print the next statements in a new line, we can use `System.out.println()`. It is basically a `System.out.print([anything] + "\n")`
 
 > ### Useful Links
 > 
@@ -57,12 +76,6 @@ Note that other than `nextLine()`, the other inputs are delimited by `whitespace
 
 To use input and output statements, we have to include the `<iostream>` header file.
 
-## Output
-
-To let the program print to the console, we can use the `std::cout` statement.
-
-There are a few ways to print in a new line, including using the `\n` escape character. Another way is to use `std::endl`.
-
 ## Input
 
 To accept input from a user, we can use `std::cin`.
@@ -72,6 +85,12 @@ However, for `string`, `std::cin` only works for the first word as `whitespace` 
 Therefore we can use the `getline(cin, varName)` function to read an entire line. This function requires `#include <string>`.
 
 `C++` also supports reading multiple inputs in one line. The values can be declared by using `whitespace` between inputs in the console and using the `>>` operator between variables in the program.
+
+## Output
+
+To let the program print to the console, we can use the `std::cout` statement.
+
+There are a few ways to print in a new line, including using the `\n` escape character. Another way is to use `std::endl`.
 
 > ### Useful Links
 > 
@@ -172,9 +191,9 @@ To accept input from the user, we can use `datatype var = Console.ReadLine();`.
 
 | Language | Input | Output |
 | :---: | :---: | :---: | 
-| Python |  | `print` |
+| Python | `input()` | `print` |
 | JavaScript |  | `console.log()` |
-| Java | using `Scanner` object | `System.out.print/ln()` |
+| Java | using a `Scanner` object | `System.out.println()` |
 | C++ | `std::cin`, `getline()` | `std::cout` |
 | C | `scanf()`, `scanf_s()` | `printf` |
 | C# | `Console.ReadLine()` | `Console.Write/Line()` |
