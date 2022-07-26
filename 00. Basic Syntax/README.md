@@ -18,6 +18,7 @@ Comments are used to explain the code we write. At the same time, it enhances co
 | JavaScript | `//` |
 | Java | `//` |
 | C/C++ | `//` |
+| C# | `//` |
 
 The comment syntax shown above are **single-line comment** syntax, it will only *comment* out that one line. If we want to comment multiple lines (or create a comment block), we will use **multi-line comment** syntax.
 
@@ -30,7 +31,7 @@ Comment Syntax Sample for `Python`:
 # so we need to insert # for each of the lines.
 ```
 
-Comment Syntax Sample for `JavaScript`, `Java`, `C` and `C++`:
+Comment Syntax Sample for `JavaScript`, `Java`, `C`, `C++` and `C#`:
 
 ```js
 // This is a single-line comment
@@ -52,7 +53,6 @@ In some programming languages like `Python`, indentation is very important as it
 
 ```py
 def my_function(num):
-
     print("This is a function")
     print("that receives a number")
     print("and prints it out")
@@ -67,7 +67,6 @@ In most programming languages, indentations are normally used (not a must) to sh
 
 ```js
 function my_function(num) {
-
     console.log("This is a function")
     console.log("that receives a number")
     console.log("and prints it out")
@@ -81,7 +80,6 @@ Similar to `JavaScript`, indentations are normally used (not a must) to show a c
 
 ```java
 public void my_function(int num) {
-
     System.out.println("This is a function");
     System.out.println("that receives a number");
     System.out.println("and prints it out");
@@ -94,7 +92,7 @@ The code above represents a non-static function, in order to access to a non sta
 
 Indentations are normally used (not a must) to show a code block.
 
-```C
+```c
 // C
 void my_function(int num) {
     printf("This is a function"\n);
@@ -104,13 +102,26 @@ void my_function(int num) {
 }
 ```
 
-```C++
+```c++
 // C++
 void my_function(int num) {
     std::cout << "This is a function" << std::endl;
     std::cout << "that receives a number" << std::endl;
     std::cout << "and prints it out" << std::endl;
     std::cout << num << std::endl;
+}
+```
+
+### **C/C++**
+
+Indentations are normally used (not a must) to show a code block.
+
+```c#
+void my_function(int num) {
+    Console.WriteLine("This is a function");
+    Console.WriteLine("that receives a number");
+    Console.WriteLine("and prints it out");
+    Console.WriteLine(num);
 }
 ```
 
@@ -122,6 +133,7 @@ void my_function(int num) {
 | JavaScript | For readability. `{}` for code blocks |
 | Java | For readability. `{}` for code blocks |
 | C/C++ | For readability. `{}` for code blocks |
+| C# | For readability. `{}` for code blocks |
 
 ---
 
@@ -178,7 +190,7 @@ Learn more about syntax for `Java` at [w3schools.com/java](https://www.w3schools
 
 In `C` and `C++`, the statement syntax has a rule similar to `Java`: all statements must end with a semicolon `;`.
 
-```C
+```c
 // C
 int num1 = 5;
 int num2 = 7;
@@ -201,6 +213,21 @@ Learn more about syntax for `C` at [w3schools.com/c](https://www.w3schools.com/c
 
 Learn more about syntax for `C++` at [w3schools.com/cpp](https://www.w3schools.com/cpp/default.asp).
 
+### **C#**
+
+In `C#`, the statement syntax has a rule: all statements must end with a semicolon `;`.
+
+```c#
+int num1 = 5;
+int num2 = 7;
+
+int sum = num1 + num2;
+
+Console.WriteLine(sum);    // 12
+```
+
+Learn more about syntax for `C#` at [w3schools.com/cs](https://www.w3schools.com/cs/cs_syntax.php).
+
 #### TL;DR :
 
 | Language | Usage of `;` |
@@ -209,5 +236,6 @@ Learn more about syntax for `C++` at [w3schools.com/cpp](https://www.w3schools.c
 | JavaScript | Optional |
 | Java | End of all statements |
 | C/C++ | End of all statements |
+| C# | End of all statements |
 
 ---

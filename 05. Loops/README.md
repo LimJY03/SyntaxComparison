@@ -15,12 +15,12 @@ In Python, ```for``` loop is used to iterate over a sequence (list, tuple, dicti
 fruits = ["apple", "banana", "cherry"]
 
 for x in fruits:
-  print(x)
+    print(x)
 ```
 ### **Looping through a String**
 ```py
 for x in "banana":
-  print(x)
+    print(x)
 ```
 
 ## **range()**
@@ -29,49 +29,49 @@ for x in "banana":
 ### **Example**
 ```py
 for x in range(6):
-  print(x)
-  ```
+    print(x)
+```
 Note that the loop stops before specified end value. For instance, the example above prints the value from 0 to 5 instead of 6.
 
 ### **Example**
 ```py
 # using starting parameter
 for x in range(2, 6):
-  print(x)
-  ```
+    print(x)
+```
 
 ### **Example**
 ```py
 # Specifying increment value
 for x in range(2, 30, 3):
-  print(x)
-  ```
+    print(x)
+```
 
 ## **Else In For Loop**
 Use ```else``` in a ```for``` loop to execute the code block after the loop is finished:
 
 ```py 
 for x in range(6):
-  print(x)
+    print(x)
 else:
-  print("It's done!")
+    print("It's done!")
 ```
 >Note that the ```else``` block will not be executed if the loop is stopped by a ```break``` statement.
 
 ```py
 for x in range(6):
-  if x == 3: break
-  print(x)
+    if x == 3: break
+    print(x)
 else:
-  print("it's done!") # This line will not be printed out
-  ```
+    print("it's done!") # This line will not be printed out
+```
 
 ## **pass**
 Use ```pass``` statement to pass through loops with no content in it to avoid errors.
 
 ```py
 for x in [0, 1, 2]:
-  pass
+    pass
 ```
 
 ## **While Loops**
@@ -80,19 +80,19 @@ The ```while``` loop can be executed as long the condition is ```true```
 ```py
 i = 1
 while i < 6: # As long as the value of i is smaller than 6
-  print(i)
-  i += 1
-  ```
+    print(i)
+    i += 1
+```
   
 The ```else``` statement is used to execute the code block when the condition is no longer met.
 
 ```py
 i = 1
 while i < 6:
-  print(i)
-  i += 1
+    print(i)
+    i += 1
 else:
-  print("i is no longer less than 6")
+    print("i is no longer less than 6")
 ```
   
   
@@ -109,18 +109,18 @@ The ```break``` and ```continue``` do the same in ```while``` loop as what they 
 ```py
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  if x == "banana":
-    continue
-  print(x)
+    if x == "banana":
+        continue
+    print(x)
 ```
 
 ```py
 i = 1
 while i < 6:
-  print(i)
-  if i == 3:
-    break
-    i += 1
+    print(i)
+    if i == 3:
+        break
+        i += 1
 ```
 
 
@@ -154,7 +154,7 @@ The general syntax of `for` loop goes as below:
 
 ```js
 for (let i = 0; i < 5; i++) {
-  message += "This is message " + i;
+    message += "This is message " + i;
 }
 ```
 
@@ -203,7 +203,7 @@ const dog = {gender:"Male", breed:"Golden Retriever", age:5};
 let text = "";
 
 for (let x in dog) {
-  text += dog[x];
+    text += dog[x];
 }
 ```
 
@@ -229,7 +229,7 @@ let txt = "";
 numbers.forEach(myFunction);
 
 function myFunction(value, index, array) {
-  txt += value;
+    txt += value;
 }
 ```
 
@@ -268,8 +268,8 @@ The general syntax of `while` loop goes as below:
 
 ```js
 while (i < 10) {
-  text += "The number is " + i;
-  i++;
+    text += "The number is " + i;
+    i++;
 }
 ```
 
@@ -288,8 +288,8 @@ The general syntax of `do...while` loop goes as below:
 
 ```js
 do {
-  text += "The number is " + i;
-  i++;
+    text += "The number is " + i;
+    i++;
 }
 while (i < 10);
 ```
@@ -305,8 +305,8 @@ The `continue` statement breaks one iteration and continues with the next iterat
 
 ```js
 for (let i = 0; i < 5; i++) {
-  if (i === 2) { break; }
-  text += "The number is " + i + "<br>";
+    if (i === 2) { break; }
+    text += "The number is " + i + "<br>";
 }
 ```
 
@@ -315,8 +315,8 @@ The `break` statement breaks out of the loop when counter is 2.
 
 ```js
 for (let i = 0; i < 10; i++) {
-  if (i === 3) { continue; }
-  text += "The number is " + i + "<br>";
+    if (i === 3) { continue; }
+    text += "The number is " + i + "<br>";
 }
 ```
 
@@ -379,13 +379,13 @@ The syntax is similar to `C++` and `javascript`.
 
 ```java
 while (i < 10) {
-  System.out.println("The number is " + i);
-  i++;
+    System.out.println("The number is " + i);
+    i++;
 }
 
 do {
-  System.out.println("The number is " + i);
-  i++;
+    System.out.println("The number is " + i);
+    i++;
 } while (i < 10);
 ```
 
@@ -398,10 +398,10 @@ The `continue` statement breaks one iteration and continues with the next iterat
 ### **Example**
 ```java
 for (int i = 0; i < 5; i++) {
-  if (i == 2) { 
-    break; //or continue;
-  }
-  System.out.println("The number is " + i);
+    if (i == 2) { 
+        break; //or continue;
+    }
+    System.out.println("The number is " + i);
 }
 ```
 ---
@@ -489,13 +489,13 @@ The syntax is similar to `java` and `javascript`.
 
 ```c++
 while (i < 10) {
-  std::cout << "The number is " << i;
-  i++;
+    std::cout << "The number is " << i;
+    i++;
 }
 
 do {
-  std::cout << "The number is " << i;
-  i++;
+    std::cout << "The number is " << i;
+    i++;
 } while (i < 10);
 ```
 
@@ -508,10 +508,10 @@ The `continue` statement breaks one iteration and continues with the next iterat
 ### **Example**
 ```c++
 for (int i = 0; i < 5; i++) {
-  if (i == 2) { 
-    break; //or continue;
-  }
-  std::cout << "The number is " << i << std::endl;
+    if (i == 2) { 
+        break; //or continue;
+    }
+    std::cout << "The number is " << i << std::endl;
 }
 ```
 
@@ -571,6 +571,91 @@ for (int i = 0; i < 5; i++) {
 
 ---
 
+# C#
+
+`for` - loops through a block of code a number of times
+
+`foreach` - loops through elements in an array
+
+`while` - loops through a block of code while a specified condition is true
+
+`do/ while` - also loops through a block of code while a specified condition is true  
+
+<br>
+
+A normal  `for` loop in `C#` is similar to `Java` and `C++`:
+    
+> ```c#
+> for (initial; condition; update statement) {
+>  // code block to be executed
+> }
+> ```
+
+## **Foreach loop**
+
+It executes a for loop over over all elements in an array
+
+```c#
+for ( datatype counter in arrayName ) {
+    // code block to be executed
+}
+```
+
+The arguments taken:
+
+|Parameter|Explanation|
+|:-:|:-:|
+| datatype | the datatype of the array |
+| counter | self declared name of variable |
+| arrayName | name of array to be looped |
+
+### **Example**
+```c#
+//looping through elements in an array
+int[6] v = {0, 1, 2, 3, 4, 5};
+int sum = 0;
+foreach (int i in v) {
+    Console.WriteLine(i + " ");           //prints 0 1 2 3 4 5 
+    sum = sum + i;
+}
+Console.WriteLine("The sum is: " + sum);  //prints The sum is: 15
+```
+
+## **While and Do-while Loops**
+
+The syntax is similar to `C++` and `java`.
+
+### **Example**
+
+```c#
+while (i < 10) {
+    Console.WriteLine("The number is " + i);
+    i++;
+}
+
+do {
+    Console.WriteLine("The number is " + i);
+    i++;
+} while (i < 10);
+```
+
+## **Break and Continue**
+
+Similar across most languages:
+The `break` statement jumps out of a loop. Use `break` statement to jump out of code block.
+The `continue` statement breaks one iteration and continues with the next iteration in the loop.
+
+### **Example**
+```c#
+for (int i = 0; i < 5; i++) {
+    if (i == 2) { 
+        break; //or continue;
+    }
+    Console.WriteLine("The number is " + i);
+}
+```
+---
+
 #### TL;DR:
 
 | Language | `while` and `do-while` | `for` Syntax | `foreach` Support |
@@ -580,6 +665,7 @@ for (int i = 0; i < 5; i++) {
 | Java | `while` and `do-while` | `for (i; c; u)` and `for(var:range)` | No |
 | C++ | `while` and `do-while` | `for (i; c; u)` and `for(var:range)`| `for_each()` |
 | C | `while` and `do-while` | `for (i; c; u)` only | No |
+| C# | `while` and `do-while` | `for (i; c; u)` only | `foreach()` |
 
 All languages above has `break` and `continue` for the same usage.
 
