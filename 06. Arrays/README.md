@@ -1,5 +1,7 @@
 # Arrays and Collections
 
+The table of common operations for each collection can be found in [here at Operations.md](https://github.com/PoisonDarterz/SyntaxComparison/blob/1d84b44030de1283702c1a8706ef30a3fdba5a87/06.%20Arrays/Operations.md).
+
 Lorem ipsum
 
 ---
@@ -57,21 +59,6 @@ The ArrayList is a resizable array, which needs to be imported using `import jav
 ```java
 ArrayList<String> cars = new ArrayList<String>();
 ```
-
-### Table of common functions for `ArrayList`
-
-Let `cars` be our ArrayList name.
-
-| Function | Description |
-| :---: | :---: |
-| `cars.get(index)` | Access element in index |
-| `cars.add(element)` | Insert element at the end |
-| `cars.set(index, element)` | Modifies element in index |
-| `cars.remove(index)` | Delete element in index |
-| `cars.clear()` | Delete all elements |
-| `cars.size()` | Returns *length* of the list |
-| `Collections.sort(cars)` | Sorts the list (requires `import java.util.Collections`) |
-| `cars.isEmpty()` | Returns `true` if list is empty |
 
 ---
 
@@ -154,21 +141,6 @@ for (int x : vect){
 }
 
 ```
-
-### Table of common functions for `vector`
-
-Let `vect` be our vector name.
-
-| Function | Description |
-| :---: | :---: |
-| `vect.begin()` | Access the first element |
-| `vect.end()` | Access the last element |
-| `vect.size()` | The *length* of the vector |
-| `vect.capacity()` | The *allocated storage capacity* in the vector |
-| `vect.push_back()` | Insert element at the end |
-| `vect.pop_back()` | Deletes last element |
-| `vect.empty()` | Returns `true` if vect is empty |
-| `std::sort(vect.begin(), vect.end());` | Sorts vect |
 
 ---
 # C
@@ -273,21 +245,6 @@ The List is a resizable array for `C#`.
 ```c#
 List<string> cars = new List<string>();
 ```
-
-### Table of common functions for `List`
-
-Let `cars` be our List name.
-
-| Function | Description |
-| :---: | :---: |
-| `cars.First()` | Access first element |
-| `cars.Last()` | Access last element |
-| `cars.Add(element)` | Insert element at the end |
-| `cars.Insert(index, element)` | Inserts element in index |
-| `cars.RemoveAt(index)` | Delete element in index |
-| `cars.Clear()` | Delete all elements |
-| `cars.Count` | Returns *length* of the list |
-| `cars.Sort()` | Sorts the list |
 
 ---
 #### TL;DR:
