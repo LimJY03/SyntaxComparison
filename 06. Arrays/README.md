@@ -168,6 +168,7 @@ Let `vect` be our vector name.
 | `vect.push_back()` | Insert element at the end |
 | `vect.pop_back()` | Deletes last element |
 | `vect.empty()` | Returns `true` if vect is empty |
+| `std::sort(vect.begin(), vect.end());` | Sorts vect |
 
 ---
 # C
@@ -280,6 +281,8 @@ Let `cars` be our List name.
 | Function | Description |
 | :---: | :---: |
 | `cars[index]` | Access element in index |
+| `cars.First()` | Access first element |
+| `cars.Last()` | Access last element |
 | `cars.Add(element)` | Insert element at the end |
 | `cars.Insert(index, element)` | Inserts element in index |
 | `cars.RemoveAt(index)` | Delete element in index |
