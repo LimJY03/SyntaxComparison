@@ -280,14 +280,13 @@ Let `cars` be our List name.
 
 | Function | Description |
 | :---: | :---: |
-| `cars[index]` | Access element in index |
 | `cars.First()` | Access first element |
 | `cars.Last()` | Access last element |
 | `cars.Add(element)` | Insert element at the end |
 | `cars.Insert(index, element)` | Inserts element in index |
 | `cars.RemoveAt(index)` | Delete element in index |
 | `cars.Clear()` | Delete all elements |
-| `cars.Count()` | Returns *length* of the list |
+| `cars.Count` | Returns *length* of the list |
 | `cars.Sort()` | Sorts the list |
 
 ---
