@@ -1,6 +1,6 @@
 # Arrays and Collections
 
-The table of common operations for each collection can be found in [here at Operations.md](https://github.com/PoisonDarterz/SyntaxComparison/blob/1d84b44030de1283702c1a8706ef30a3fdba5a87/06.%20Arrays/Operations.md).
+The table of common operations for each collection can be found in [here at Operations.md](https://github.com/LimJY03/SyntaxComparison/blob/main/06.%20Arrays/Operations.md).
 
 Lorem ipsum
 
