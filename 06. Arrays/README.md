@@ -1,5 +1,7 @@
 # Arrays and Collections
 
+The table of common operations for each collection can be found in [here at Operations.md](https://github.com/PoisonDarterz/SyntaxComparison/blob/1d84b44030de1283702c1a8706ef30a3fdba5a87/06.%20Arrays/Operations.md).
+
 Lorem ipsum
 
 ---
@@ -58,21 +60,6 @@ The ArrayList is a resizable array, which needs to be imported using `import jav
 ArrayList<String> cars = new ArrayList<String>();
 ```
 
-### Table of common functions for `ArrayList`
-
-Let `cars` be our ArrayList name.
-
-| Function | Description |
-| :---: | :---: |
-| `cars.get(index)` | Access element in index |
-| `cars.add(element)` | Insert element at the end |
-| `cars.set(index, element)` | Modifies element in index |
-| `cars.remove(index)` | Delete element in index |
-| `cars.clear()` | Delete all elements |
-| `cars.size()` | Returns *length* of the list |
-| `Collections.sort(cars)` | Sorts the list (requires `import java.util.Collections`) |
-| `cars.isEmpty()` | Returns `true` if list is empty |
-
 ---
 
 # C++
@@ -91,7 +78,9 @@ The array size is fixed once it is initialized.
 
 ```c++
 int myNum[3] = {10, 20, 30};
-std::cout << myNum[0];                                //prints 10
+std::cout << myNum[0];                              // prints 10
+
+int myNum2[5];                                      // declares empty array with size 5. Do note the "new" keyword is unnecessary in C/C++.
 ```
 
 The array size can also be omitted if the elements are immediately initialized. The array will be as big as the number of elements inserted into it.
@@ -99,7 +88,7 @@ The array size can also be omitted if the elements are immediately initialized. 
 ### Example
 
 ```c++
-std::string cars[] = {"Volvo", "BMW", "Ford"};        // size of array is always 3
+std::string cars[] = {"Volvo", "BMW", "Ford"};      // size of array is always 3
 ```
 
 ### Getting array size / length
@@ -114,8 +103,8 @@ To get the *length* of an array, you have to divide the size of the array by the
 int myNumbers[5] = {10, 20, 30, 40, 50};
 int getSize = sizeof(myNumbers);
 int getArrayLength = sizeof(myNumbers) / sizeof(int);
-std::cout << getSize;                                  // prints 20 (int uses 4 bytes)
-std::cout << getArrayLength;                           // prints 5
+std::cout << getSize;                               // prints 20 (int uses 4 bytes)
+std::cout << getArrayLength;                        // prints 5
 ```
 
 ### Note about strings and char*
@@ -153,20 +142,6 @@ for (int x : vect){
 
 ```
 
-### Table of common functions for `vector`
-
-Let `vect` be our vector name.
-
-| Function | Description |
-| :---: | :---: |
-| `vect.begin()` | Access the first element |
-| `vect.end()` | Access the last element |
-| `vect.size()` | The *length* of the vector |
-| `vect.capacity()` | The *allocated storage capacity* in the vector |
-| `vect.push_back()` | Insert element at the end |
-| `vect.pop_back()` | Deletes last element |
-| `vect.empty()` | Returns `true` if vect is empty |
-
 ---
 # C
 
@@ -184,7 +159,9 @@ The array size is fixed once it is initialized.
 
 ```c
 int myNum[3] = {10, 20, 30};
-printf("%d", myNum[0]);                                // prints 10
+printf("%d", myNum[0]);                              // prints 10
+
+int myNum2[5];                                       // declares empty array with size 5. Do note the "new" keyword is unnecessary in C/C++.
 ```
 
 The array size can also be omitted if the elements are immediately initialized. The array will be as big as the number of elements inserted into it.
@@ -192,7 +169,7 @@ The array size can also be omitted if the elements are immediately initialized. 
 ### Example
 
 ```c
-int myNum[] = {10, 20, 30};                            // size of array is always 3
+int myNum[] = {10, 20, 30};                          // size of array is always 3
 ```
 
 ### Getting array size / length
@@ -207,8 +184,8 @@ To get the *length* of an array, you have to divide the size of the array by the
 int myNumbers[5] = {10, 20, 30, 40, 50};
 int getSize = sizeof(myNumbers);
 int getArrayLength = sizeof(myNumbers) / sizeof(int);
-printf("%d\n", getSize);                               // prints 20 (int uses 4 bytes)
-printf("%d", getArrayLength);                          // prints 5
+printf("%d\n", getSize);                             // prints 20 (int uses 4 bytes)
+printf("%d", getArrayLength);                        // prints 5
 ```
 
 ### Note about strings and char
@@ -268,20 +245,6 @@ The List is a resizable array for `C#`.
 ```c#
 List<string> cars = new List<string>();
 ```
-
-### Table of common functions for `List`
-
-Let `cars` be our List name.
-
-| Function | Description |
-| :---: | :---: |
-| `cars[index]` | Access element in index |
-| `cars.Add(element)` | Insert element at the end |
-| `cars.Insert(index, element)` | Inserts element in index |
-| `cars.RemoveAt(index)` | Delete element in index |
-| `cars.Clear()` | Delete all elements |
-| `cars.Count()` | Returns *length* of the list |
-| `cars.Sort()` | Sorts the list |
 
 ---
 #### TL;DR:
