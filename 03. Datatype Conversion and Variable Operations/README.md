@@ -107,14 +107,14 @@ Conversion of strings to numerical datatypes has their individual functions:
 
 ```c++
 int myInt = 3;
-double myDouble = myInt;            // Automatic casting: int to double
-std::string str1 = to_string(myInt);// int to string
+double myDouble = myInt;                // Automatic casting: int to double
+std::string str1 = to_string(myInt);    // int to string
 
 double myDouble = 3.142;
-int myInt = (int)myDouble;          // Manual casting: double to int
+int myInt = (int)myDouble;              // Manual casting: double to int
 
 std::string myString = "9.81";
-double dou1 = stod(myString);       // string to double
+double dou1 = stod(myString);           // string to double
 ```
 
 ## Variable Operations
@@ -125,6 +125,38 @@ Variable operations are similar for Java, C++, C and C#. It can be found in (lin
 # C
 
 ## Datatype Conversion
+
+Type casting for primitive datatypes (automatic and manual) in C is the same as C++.
+
+### Conversion between string and numerical datatypes
+
+Conversion from numerical datatypes to a cstring can be done using `sprintf(str, numDatatype, var/value);`
+
+Conversion of strings to numerical datatypes has their individual functions:
+
+| function | string to ___ |
+| :---: | :---: |
+| `strtol()` | long integer |
+| `strtod()` | double |
+| `strtof()` | float |
+
+### Example
+
+```c
+int myInt = 3;
+double myDouble = myInt;                 // Automatic casting: int to double
+char str1[];
+sprintf(str1, "%d", myInt);              // int to string
+
+double myDouble = 3.142;
+int myInt = (int)myDouble;               // Manual casting: double to int
+
+char myString[] = "9.81";
+char* endPtr;                            // Pointer to the rest of the string after the last valid character
+double dou1 = strtod(myString, &endPtr); // string to double
+
+// A third parameter for base (eg, 10 for decimals, 16 for hex) is needed for strtol.
+```
 
 ## Variable Operations
 
@@ -144,3 +176,4 @@ Variable operations are similar for Java, C++, C and C#. It can be found in (lin
 #### TL;DR:
 
 table here
+
