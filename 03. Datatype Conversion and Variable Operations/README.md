@@ -168,6 +168,37 @@ Variable operations are similar for Java, C++, C and C#. It can be found in (lin
 
 ## Datatype Conversion
 
+Automatic and manual casting are done similar to `Java`.
+
+The order of datatypes are: `char -> int -> long -> float -> double`.
+
+### Conversion between string and numerical datatypes
+
+Conversion between numbers to string can be done using `var.ToString();`
+
+Conversion of strings to numerical datatypes has their individual functions:
+
+| Convert.______ | string to ___ |
+| :---: | :---: |
+| `ToInt32()` | int |
+| `ToDouble()` | double |
+| `ToBoolean()` | bool |
+| `ToChar()` | char |
+
+### Example
+
+```c#
+int myInt = 3;
+double myDouble = myInt;                 // Automatic casting: int to double
+String str1 = myInt.ToString();          // int to string
+
+double myDouble = 3.142;
+int myInt = (int) myDouble;              // Manual casting: double to int
+
+String myString = "9.81";
+double dou1 = Convert.ToDouble(myString);// string to double
+```
+
 ## Variable Operations
 
 Variable operations are similar for Java, C++, C and C#. It can be found in (link).
@@ -176,4 +207,3 @@ Variable operations are similar for Java, C++, C and C#. It can be found in (lin
 #### TL;DR:
 
 table here
-
