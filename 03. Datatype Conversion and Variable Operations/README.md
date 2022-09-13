@@ -204,6 +204,3 @@ double dou1 = Convert.ToDouble(myString);// string to double
 Variable operations are similar for Java, C++, C and C#. It can be found in (link).
 
 ---
-#### TL;DR:
-
-table here
