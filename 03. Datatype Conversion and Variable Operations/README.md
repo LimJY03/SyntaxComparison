@@ -58,7 +58,7 @@ From small to large, the datatype sequence for primitive datatypes is:
 
 ## Variable Operations
 
-Variable operations are similar for Java, C++, C and C#. It can be found in (link).
+Variable operations are similar for Java, C++, C and C#. It can be found in [here at Operations.md](https://github.com/LimJY03/SyntaxComparison/blob/main/03.%20Datatype%20Conversion%20and%20Variable%20Operations/Operations.md).
 
 ### Example
 
@@ -73,6 +73,11 @@ int myInt = (int) myDouble;             // Manual casting: double to int
 String myString = "9.81";
 double dou1 = Double.valueOf(myString); // string to double
 ```
+
+> ### Useful Links:
+> 
+> * Learn More: [w3schools.com/java](https://www.w3schools.com/java/java_type_casting.asp)
+
 
 ---
 
@@ -119,7 +124,11 @@ double dou1 = stod(myString);           // string to double
 
 ## Variable Operations
 
-Variable operations are similar for Java, C++, C and C#. It can be found in (link).
+Variable operations are similar for Java, C++, C and C#. It can be found in [here at Operations.md](https://github.com/LimJY03/SyntaxComparison/blob/main/03.%20Datatype%20Conversion%20and%20Variable%20Operations/Operations.md).
+
+> ### Useful Links:
+> 
+> * Learn More: [w3schools.com/java](https://www.w3schools.com/java/java_type_casting.asp)
 
 ---
 # C
@@ -160,7 +169,7 @@ double dou1 = strtod(myString, &endPtr); // string to double
 
 ## Variable Operations
 
-Variable operations are similar for Java, C++, C and C#. It can be found in (link).
+Variable operations are similar for Java, C++, C and C#. It can be found in [here at Operations.md](https://github.com/LimJY03/SyntaxComparison/blob/main/03.%20Datatype%20Conversion%20and%20Variable%20Operations/Operations.md).
 
 ---
 
@@ -201,6 +210,10 @@ double dou1 = Convert.ToDouble(myString);// string to double
 
 ## Variable Operations
 
-Variable operations are similar for Java, C++, C and C#. It can be found in (link).
+Variable operations are similar for Java, C++, C and C#. It can be found in [here at Operations.md](https://github.com/LimJY03/SyntaxComparison/blob/main/03.%20Datatype%20Conversion%20and%20Variable%20Operations/Operations.md).
+
+> ### Useful Links:
+> 
+> * Learn More: [w3schools.com/cs](https://www.w3schools.com/cs/cs_type_casting.php)
 
 ---
