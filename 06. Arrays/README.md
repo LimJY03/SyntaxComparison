@@ -60,6 +60,11 @@ The ArrayList is a resizable array, which needs to be imported using `import jav
 ArrayList<String> cars = new ArrayList<String>();
 ```
 
+> ### Useful Links:
+> 
+> * Arrays: [w3schools.com/java](https://www.w3schools.com/java/java_arrays.asp)
+> * ArrayLists: [w3schools.com/java](https://www.w3schools.com/java/java_arraylist.asp)
+
 ---
 
 # C++
@@ -142,6 +147,10 @@ for (int x : vect){
 
 ```
 
+> ### Useful Links:
+> 
+> * Arrays: [w3schools.com/cpp](https://www.w3schools.com/cpp/cpp_arrays.asp)
+
 ---
 # C
 
@@ -202,6 +211,11 @@ char stringArray[2][10] = {"String 1", "String 2"};
 //num of strings ^ | ^ max length of each string
 ```
 
+
+> ### Useful Links:
+> 
+> * Arrays: [w3schools.com/c](https://www.w3schools.com/c/c_arrays.php)
+
 ---
 
 # C#
@@ -245,6 +259,11 @@ The List is a resizable array for `C#`.
 ```c#
 List<string> cars = new List<string>();
 ```
+
+> ### Useful Links:
+> 
+> * Arrays: [w3schools.com/cs](https://www.w3schools.com/cs/cs_arrays.php)
+> * Lists: [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-6.0)
 
 ---
 #### TL;DR:
