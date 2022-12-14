@@ -42,6 +42,8 @@ Most folders in our project are specific subtopic in the programming basics. The
 * Subtopic Folder
     * `README.md` (Contains the theory, syntax comparisons and some additional notes)
     * Sample Codes Folder 
+        * `xxx.c` (Contains sample code of the subtopic for `C`)
+        * `xxx.c#` (Contains sample code of the subtopic for `C#`)
         * `xxx.cpp` (Contains sample code of the subtopic for `C++`)
         * `xxx.java` (Contains sample code of the subtopic for `Java`)
         * `xxx.js` (Contains sample code of the subtopic for `JavaScript`)
