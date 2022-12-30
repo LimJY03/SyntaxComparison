@@ -55,4 +55,43 @@ To maintain consistencies at both design and structure of our project, here is t
 
 <!-- JY will write this section but if you have anything to write please leave it here as well for reviewing -->
 
+### Markdown Syntax
+
+All components should follow the markdown syntax and avoid using `HTML` syntax unless needed. 
+
+> **Note**
+> <br>The `HTML` tags mentioned below are for reference purposes only.
+
+### Headings
+
+In GitHub Markdown Renderer, all headings are automatically **bolded**, so there is no need to explicitly bold the headings with asterisks (`**`).
+
+* Level 1 Header, `#` (`<h1>` in `HTML`) is used for Topic Title.
+* Level 2 Header, `##` (`<h2>` in `HTML`) is used for Language Names.
+* Level 3 Header, `###` (`<h3>` in `HTML`) is used for Subtopic Title and [Useful Links section](#useful-links-section).
+
+### Bullets and Numberings
+
+GitHub Markdown supports multiple characters that renders the same bullets or numbers, we will standardize them as follows:
+
+* Use `*` for bullets.
+* Instead of using all `1` to represent `1`, `2`, ... use their digit instead. (`1.` for 1, `2.` for 2, etc.)
+
+### Useful Links Section
+
+The heading of this section should be `### Useful Links:` followed by a reference link named **Learn More:** (from w3schools.com if possible) and a code example link named **Code Example:**, both in bullets.
+
+This whole section will also be in a "quote", meaning that they have a quote bar at the left. Example of this section is as below:
+
+> ### Useful Links:
+> 
+> * Learn More: [w3schools.com]()
+> * Code Example: [CONTRIBUTIONS.md]()
+
+### Syntax Highlighting
+
+In GitHub Markdown Renderer, we can use triple backticks (<code>```</code>) followed by the programming language abbreviation to color it.
+
+Read more on syntax highlighting [here](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks#syntax-highlighting).
+
 ---
